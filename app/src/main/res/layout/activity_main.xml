@@ -1,124 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fdffee"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="317dp"
+            app:srcCompat="@drawable/logo" />
+    </FrameLayout>
+
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="117dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/로고2" />
+        android:layout_height="209dp">
 
-    <Button
-        android:id="@+id/Login"
-        android:layout_width="0dp"
-        android:layout_height="70dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="50dp"
-        android:text="Log-In"
-        app:layout_constraintBottom_toBottomOf="@+id/ID"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ID"
-        app:layout_constraintTop_toBottomOf="@+id/ID" />
+        <TextView
+            android:id="@+id/textViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="ID"
+            android:textSize="20dp" />
 
-    <EditText
-        android:id="@+id/PW"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="38dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/Sign"
-        app:layout_constraintEnd_toStartOf="@+id/Login"
-        app:layout_constraintStart_toEndOf="@+id/textViewPW"
-        app:layout_constraintTop_toTopOf="@+id/textViewID" />
+        <EditText
+            android:id="@+id/ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:ems="10" />
 
-    <Button
-        android:id="@+id/Sign"
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/round_button"
+            android:text="Log-In"
+            android:textColor="#FFFFFF"></Button>
+
+        <TextView
+            android:id="@+id/textViewPW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewID"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:text="PW"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/PW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ID"
+            android:layout_marginLeft="75dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+    </RelativeLayout>
+
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:text="회원가입"
-        app:layout_constraintBaseline_toBaselineOf="@+id/FoundPW"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/FoundPW" />
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/FoundID"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="14dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
-        android:text="ID찾기"
-        app:layout_constraintBaseline_toBaselineOf="@+id/FoundPW"
-        app:layout_constraintEnd_toStartOf="@+id/FoundPW"
-        app:layout_constraintStart_toStartOf="parent" />
+        <Button
+            android:id="@+id/FoundID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/round_button"
+            android:text="ID찾기"
+            android:textColor="#FFFFFF" />
 
-    <Button
-        android:id="@+id/FoundPW"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
-        android:text="PW찾기"
-        app:layout_constraintEnd_toStartOf="@+id/Sign"
-        app:layout_constraintStart_toEndOf="@+id/FoundID"
-        app:layout_constraintTop_toBottomOf="@+id/textViewPW" />
+        <Button
+            android:id="@+id/FoundPW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:background="@drawable/round_button"
+            android:text="PW찾기"
+            android:textColor="#FFFFFF" />
 
-    <TextView
-        android:id="@+id/textViewID"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="109dp"
-        android:layout_marginLeft="109dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="9dp"
-        android:text="ID"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/textViewPW"
-        app:layout_constraintEnd_toStartOf="@+id/ID"
-        app:layout_constraintStart_toStartOf="parent" />
+        <Button
+            android:id="@+id/Sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="275dp"
+            android:background="@drawable/round_button"
+            android:text="회원가입"
+            android:textColor="#FFFFFF" />
 
-    <EditText
-        android:id="@+id/ID"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:ems="10"
-        app:layout_constraintBottom_toTopOf="@+id/PW"
-        app:layout_constraintEnd_toStartOf="@+id/Login"
-        app:layout_constraintStart_toEndOf="@+id/textViewID"
-        app:layout_constraintTop_toTopOf="@+id/textViewID"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textViewPW"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
-        android:layout_marginLeft="38dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="152dp"
-        android:text="Password"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toStartOf="@+id/PW"
-        app:layout_constraintStart_toStartOf="parent" />
+    </RelativeLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

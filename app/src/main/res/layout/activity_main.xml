@@ -4,15 +4,121 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fdffee"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginBottom="117dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/로고2" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Log-In"
+        app:layout_constraintBottom_toBottomOf="@+id/ID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ID"
+        app:layout_constraintTop_toBottomOf="@+id/ID" />
+
+    <EditText
+        android:id="@+id/PW"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="38dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/Sign"
+        app:layout_constraintEnd_toStartOf="@+id/Login"
+        app:layout_constraintStart_toEndOf="@+id/textViewPW"
+        app:layout_constraintTop_toTopOf="@+id/textViewID" />
+
+    <Button
+        android:id="@+id/Sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="회원가입"
+        app:layout_constraintBaseline_toBaselineOf="@+id/FoundPW"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/FoundPW" />
+
+    <Button
+        android:id="@+id/FoundID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="ID찾기"
+        app:layout_constraintBaseline_toBaselineOf="@+id/FoundPW"
+        app:layout_constraintEnd_toStartOf="@+id/FoundPW"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/FoundPW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="PW찾기"
+        app:layout_constraintEnd_toStartOf="@+id/Sign"
+        app:layout_constraintStart_toEndOf="@+id/FoundID"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPW" />
+
+    <TextView
+        android:id="@+id/textViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="109dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="9dp"
+        android:text="ID"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewPW"
+        app:layout_constraintEnd_toStartOf="@+id/ID"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ID"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        app:layout_constraintBottom_toTopOf="@+id/PW"
+        app:layout_constraintEnd_toStartOf="@+id/Login"
+        app:layout_constraintStart_toEndOf="@+id/textViewID"
+        app:layout_constraintTop_toTopOf="@+id/textViewID"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewPW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="152dp"
+        android:text="Password"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@+id/PW"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

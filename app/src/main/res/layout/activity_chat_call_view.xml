@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdffee"
+    tools:context=".ChatCallView"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0ac5a8">
+        <TextView
+            android:id="@+id/friend1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="음성통화"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/profilepicture" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/mute"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="38dp"
+            android:background="@drawable/circlebutton"
+            android:text="음소거"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/blind"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/circlebutton"
+            android:text="화면숨김"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/speaker"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/circlebutton"
+            android:text="스피커"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/callexit"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/circlebuttonred"
+            android:text="종료"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

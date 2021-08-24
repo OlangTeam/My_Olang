@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.yony.my_olang">
 
@@ -10,6 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ChatListView"></activity>
+        <activity android:name=".ChatScreenShareView" />
+        <activity android:name=".ChatFaceView" />
+        <activity android:name=".ChatCallView" />
+        <activity android:name=".ChatGameView" />
+        <activity android:name=".ChatSelectPictureView" />
+        <activity android:name=".ChatView" />
+        <activity android:name=".ChatSelectView" />
+        <activity android:name=".FriendApplyView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FriendListView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

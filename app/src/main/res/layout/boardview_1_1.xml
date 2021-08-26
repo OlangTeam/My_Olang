@@ -26,7 +26,7 @@
                 android:id="@+id/mywrite"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="*내가 쓴 글"
+                android:text="* 내가 쓴 글"
                 android:textSize="18dp" />
 
             <TextView

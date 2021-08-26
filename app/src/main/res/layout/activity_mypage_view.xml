@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fdffee"
+    tools:context=".MypageView">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0ac5a8">
+        <Button
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="#0ac5a8"
+            android:drawableBottom="@drawable/ic_undo_bg_50dp"></Button>
+
+        <TextView
+            android:id="@+id/mypage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="마이페이지"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_rectangle">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+             />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <TextView
+                android:id="@+id/id"
+
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="아이디" />
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="이름"
+            android:visibility="visible"
+            tools:visibility="visible" />
+            <TextView
+                android:id="@+id/nickname"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="닉네임" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/typeSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="취향 설정"
+        android:background="@drawable/shape_rectangle"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_rectangle">
+
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="계정" />
+        <TextView
+            android:id="@+id/myInfo"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="내 정보" />
+        <TextView
+            android:id="@+id/idCard"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="학생증 인증" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_rectangle">
+
+        <TextView
+            android:id="@+id/alarmSet"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="알림 설정" />
+
+        <TextView
+            android:id="@+id/appSet"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="앱 설정" />
+
+        <TextView
+            android:id="@+id/lockSet"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="암호잠금" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_rectangle">
+
+        <TextView
+            android:id="@+id/theOthers"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="기타" />
+        <TextView
+            android:id="@+id/signOut"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="회원탈퇴" />
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="로그아웃" />
+    </LinearLayout>
+
+</LinearLayout>

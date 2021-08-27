@@ -31,10 +31,14 @@
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/selectlistview.xml" value="0.13125" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/shape_rectangle.xml" value="0.13125" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/menu/chat_menu_view.xml" value="0.13125" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/drawable/square.xml" value="0.26974358974358975" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/mainview_1.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/postwriteview_1_1_1_2.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/selectlistview.xml" value="0.13489583333333333" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

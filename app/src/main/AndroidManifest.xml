@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".PW_Found_Result_View"
+            android:exported="true" />
+        <activity
+            android:name=".Id_Found_Result_View"
+            android:exported="true" />
+        <activity
+            android:name=".Join_View"
+            android:exported="true" />
+        <activity
+            android:name=".IdPw_Find"
+            android:exported="true" />
+        <activity
+            android:name=".One_Two_One_One_One"
+            android:exported="true" />
+        <activity
             android:name=".Recommand_View"
             android:exported="true" />
         <activity

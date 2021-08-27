@@ -43,11 +43,12 @@
 
         </RelativeLayout>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="642dp"
-        android:padding="20dp"
-        android:orientation="vertical">
+        android:layout_height="645dp"
+        android:orientation="vertical"
+        android:padding="20dp">
 
         <ImageView
             android:id="@+id/imageView2"
@@ -60,123 +61,159 @@
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
-            android:textSize="50px"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:text="닉네임(나이)" />
+            android:text="닉네임(나이)"
+            android:textSize="50px" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
-            android:textSize="20dp"
-            android:layout_margin="10dp"
             android:layout_height="wrap_content"
-            android:text="나는 이런사람이에요" />
+            android:layout_margin="10dp"
+            android:text="나는 이런사람이에요"
+            android:textSize="20dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
-                android:textSize="18dp"
-                android:layout_marginHorizontal="10dp"
                 android:layout_height="wrap_content"
-                android:text="#귀여움" />
+                android:layout_marginHorizontal="10dp"
+                android:text="#귀여움"
+                android:textSize="18dp" />
+
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="wrap_content"
-                android:textSize="18dp"
-                android:layout_marginHorizontal="10dp"
                 android:layout_height="wrap_content"
-                android:text="#섹시함" />
+                android:layout_marginHorizontal="10dp"
+                android:text="#섹시함"
+                android:textSize="18dp" />
+
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="wrap_content"
-                android:textSize="18dp"
-                android:layout_marginHorizontal="10dp"
                 android:layout_height="wrap_content"
-                android:text="#사차원" />
+                android:layout_marginHorizontal="10dp"
+                android:text="#사차원"
+                android:textSize="18dp" />
+
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
-                android:textSize="18dp"
-                android:layout_marginHorizontal="10dp"
                 android:layout_height="wrap_content"
-                android:text="#엉뚱함" />
+                android:layout_marginHorizontal="10dp"
+                android:text="#엉뚱함"
+                android:textSize="18dp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp">
+
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="wrap_content"
-                android:textSize="18dp"
-                android:layout_marginHorizontal="10dp"
                 android:layout_height="wrap_content"
-                android:text="키 :" />
+                android:layout_marginHorizontal="10dp"
+                android:text="키 :"
+                android:textSize="18dp" />
+
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
-                android:textSize="18dp"
                 android:layout_height="wrap_content"
-                android:text="180cm" />
+                android:text="180cm"
+                android:textSize="18dp" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_marginVertical="5dp"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp">
+
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
-                android:textSize="18dp"
-                android:layout_marginHorizontal="10dp"
                 android:layout_height="wrap_content"
-                android:text="나이 :" />
+                android:layout_marginHorizontal="10dp"
+                android:text="나이 :"
+                android:textSize="18dp" />
+
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="wrap_content"
-                android:textSize="18dp"
                 android:layout_height="wrap_content"
-                android:text="23" />
+                android:text="23"
+                android:textSize="18dp" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="wrap_content"
-                android:textSize="20dp"
-                android:layout_margin="10dp"
                 android:layout_height="wrap_content"
-                android:text="취미 :" />
+                android:layout_margin="10dp"
+                android:text="취미 :"
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="wrap_content"
-                android:textSize="18dp"
-                android:layout_marginHorizontal="10dp"
                 android:layout_height="wrap_content"
-                android:text="#영화보기" />
+                android:layout_marginHorizontal="10dp"
+                android:text="#영화보기"
+                android:textSize="18dp" />
+
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="wrap_content"
-                android:textSize="18dp"
-                android:layout_marginHorizontal="10dp"
                 android:layout_height="wrap_content"
-                android:text="#게임하기" />
+                android:layout_marginHorizontal="10dp"
+                android:text="#게임하기"
+                android:textSize="18dp" />
+
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="wrap_content"
-                android:textSize="18dp"
-                android:layout_marginHorizontal="10dp"
                 android:layout_height="wrap_content"
-                android:text="#노래방" />
+                android:layout_marginHorizontal="10dp"
+                android:text="#노래방"
+                android:textSize="18dp" />
         </LinearLayout>
 
 
         //footer
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="마음에들어요" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="별로에요" />
+        </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

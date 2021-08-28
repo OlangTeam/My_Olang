@@ -9,6 +9,6 @@ public class RecommendPreferenceView extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recommand_preference_view);
+        setContentView(R.layout.activity_recommend_preference_view);
     }
 }

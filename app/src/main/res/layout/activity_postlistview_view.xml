@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
         <LinearLayout
             android:id="@+id/메인"
             android:layout_width="match_parent"
@@ -38,6 +39,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:textSize="15dp"
                     android:text="내용" />
 
             </LinearLayout>
@@ -51,6 +53,7 @@
                     android:id="@+id/date"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="15dp"
                     android:text="날짜/시간" />
 
                 <TextView
@@ -58,6 +61,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="168dp"
+                    android:textSize="15dp"
                     android:text="조회수" />
 
                 <TextView
@@ -65,11 +69,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="310dp"
+                    android:textSize="15dp"
                     android:text="글쓴이" />
 
             </RelativeLayout>
 
         </LinearLayout>
+
     </ScrollView>
 
 </LinearLayout>

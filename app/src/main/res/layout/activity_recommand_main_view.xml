@@ -63,17 +63,19 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:layout_marginBottom="60dp"
             android:layout_marginLeft="20dp"
             android:text="(닉네임) (나이)"/>
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="wrap_content"
+            android:layout_width="157dp"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_marginRight="20dp"
-            android:text="더 많은 카테고리 보기>" />
+            android:text="더 많은 카테고리 보기>"
+            android:textSize="15dp" />
     </LinearLayout>
 
 

@@ -233,17 +233,23 @@
             android:layout_height="wrap_content"
             android:text="성별" />
 
-        <RadioButton
-            android:id="@+id/radioButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="남" />
+        <RadioGroup
+            android:layout_width="208dp"
+            android:layout_height="25dp"
+            android:orientation="horizontal">
 
-        <RadioButton
-            android:id="@+id/radioButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="여" />
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="91dp"
+                android:layout_height="wrap_content"
+                android:text="여" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:text="남" />
+        </RadioGroup>
 
     </LinearLayout>
 

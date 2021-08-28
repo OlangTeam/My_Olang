@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="닉네임(나이)"
-            android:textSize="50px" />
+            android:textSize="18dp" />
 
         <TextView
             android:id="@+id/textView5"
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="나는 이런사람이에요"
-            android:textSize="20dp" />
+            android:textSize="18dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -84,7 +84,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
                 android:text="#귀여움"
-                android:textSize="18dp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -92,7 +92,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
                 android:text="#섹시함"
-                android:textSize="18dp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -100,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
                 android:text="#사차원"
-                android:textSize="18dp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView9"
@@ -108,7 +108,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
                 android:text="#엉뚱함"
-                android:textSize="18dp" />
+                android:textSize="16dp" />
 
         </LinearLayout>
 
@@ -164,7 +164,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="취미 :"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
 
             <TextView
                 android:id="@+id/textView15"

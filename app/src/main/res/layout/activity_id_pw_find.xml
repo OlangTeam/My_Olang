@@ -58,7 +58,7 @@
             android:id="@+id/textView18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16dp"
+            android:textSize="20dp"
             android:text="ID찾기" />
 
         <LinearLayout
@@ -148,6 +148,7 @@
         android:id="@+id/button15"
         android:padding="10dp"
         android:layout_width="match_parent"
+        android:textSize="15dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="찾기" />
@@ -267,6 +268,7 @@
             android:id="@+id/button18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="15dp"
             android:text="찾기" />
 
         <LinearLayout

@@ -78,6 +78,7 @@
         android:background="@drawable/shape_rectangle"/>
 
     <LinearLayout
+        android:layout_marginTop="15dp"
         android:orientation="vertical"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
@@ -101,6 +102,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_marginTop="15dp"
         android:orientation="vertical"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
@@ -126,6 +128,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_marginTop="15dp"
         android:orientation="vertical"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"

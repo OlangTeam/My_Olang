@@ -10,25 +10,26 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="50sp"
         android:background="#0ac5a8">
 
-    <Button
-        android:id="@+id/back"
-        android:layout_width="40dp"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="10dp"
-        android:background="#0ac5a8"
-        android:drawableBottom="@drawable/ic_undo_bg_50dp"></Button>
-
-    <TextView
-        android:id="@+id/friend1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="게임"
-        android:textSize="20dp"
-        android:textColor="#FFFFFF"/>
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarGame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0ac5a8"
+            android:theme="?attr/actionBarTheme"
+            app:navigationIcon="@drawable/abc_vector_test">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="게임"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
     </FrameLayout>
     <LinearLayout
         android:layout_width="match_parent"

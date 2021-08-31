@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.yony.my_olang" >
+    package="com.yony.my_olang">
 
     <application
         android:allowBackup="true"
@@ -8,45 +8,78 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name=".ConfirmView"
-            android:exported="true" />
-        <activity
-            android:name=".CancelView"
-            android:exported="true" />
-        <activity
-            android:name=".LogoutConfirmView"
-            android:exported="true" />
-        <activity
-            android:name=".MyInfoView"
-            android:exported="true" />
-        <activity
-            android:name=".RecommendPreferenceView"
-            android:exported="true" />
-        <activity android:name=".ChatListView" />
-        <activity android:name=".ChatScreenShareView" />
-        <activity android:name=".ChatFaceView" />
-        <activity android:name=".ChatCallView" />
-        <activity android:name=".ChatGameView" />
-        <activity android:name=".ChatSelectPictureView" />
-        <activity android:name=".ChatView" />
-        <activity android:name=".ChatSelectView" />
-        <activity android:name=".FriendApplyView" >
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChatListView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FriendListView" >
+        <activity android:name=".ChatScreenShareView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" >
+        <activity android:name=".ChatFaceView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChatCallView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChatGameView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChatSelectPictureView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChatView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChatSelectView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FriendApplyView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FriendListView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

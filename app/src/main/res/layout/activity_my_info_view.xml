@@ -34,14 +34,13 @@
 
 
     <TextView
-            android:id="@+id/textViewID"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="25dp"
-            android:text="ID"
-            android:textSize="20dp" />
-
+        android:id="@+id/textViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:text="ID"
+        android:textSize="20dp" />
 
     <EditText
             android:id="@+id/ID"

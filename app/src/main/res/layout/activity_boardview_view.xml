@@ -3,22 +3,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fdffee">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fdffee"
+    android:orientation="vertical">
 
-    <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#0ac5a8">
 
-    <LinearLayout
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/Calltoolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:background="#0ac5a8"
+            android:theme="?attr/actionBarTheme"
+            app:navigationIcon="@drawable/abc_vector_test">
+
+            <TextView
+                android:id="@+id/toolBarCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="게시판"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+    </FrameLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:orientation="vertical">
 
             <TextView
@@ -41,7 +59,6 @@
                 android:background="#000000"
                 android:layout_width="match_parent"
                 android:layout_height="2px"/>
-
 
         </LinearLayout>
 
@@ -127,7 +144,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="310dp"
+            android:layout_marginTop="248dp"
             android:background="#0ac5a8">
 
             <Button
@@ -170,5 +187,4 @@
 
         </LinearLayout>
         </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+

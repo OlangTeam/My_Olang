@@ -3,79 +3,59 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fdffee"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#fdffee">
 
-    <ScrollView
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="50dp"
+        android:background="#0ac5a8">
 
+        <Button
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="#0ac5a8"
+            android:drawableBottom="@drawable/ic_undo_bg_50dp"></Button>
 
-        <LinearLayout
-            android:id="@+id/메인"
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/friend1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/square">
+            android:layout_gravity="center"
+            android:text="ㅇㅇ게시판"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
 
+        <Button
+            android:id="@+id/search"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="320dp"
+            android:background="#0ac5a8"
+            android:drawableBottom="@drawable/ic_baseline_edit_24">
 
-            <LinearLayout
-                android:id="@+id/제목내용"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+        </Button>
 
-                <TextView
-                    android:id="@+id/title"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="제목"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+        <Button
+            android:id="@+id/write"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="368dp"
+            android:background="#0ac5a8"
+            android:drawableBottom="@drawable/ic_baseline_search_24">
+        </Button>
+    </FrameLayout>
 
-                <TextView
-                    android:id="@+id/content"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:textSize="15dp"
-                    android:text="내용" />
-
-            </LinearLayout>
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp">
-
-                <TextView
-                    android:id="@+id/date"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="15dp"
-                    android:text="날짜/시간" />
-
-                <TextView
-                    android:id="@+id/hits"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="168dp"
-                    android:textSize="15dp"
-                    android:text="조회수" />
-
-                <TextView
-                    android:id="@+id/name"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="310dp"
-                    android:textSize="15dp"
-                    android:text="글쓴이" />
-
-            </RelativeLayout>
-
-        </LinearLayout>
-
-    </ScrollView>
-
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/postlistview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView">
+            </ListView>
+        </FrameLayout>
 </LinearLayout>

@@ -9,30 +9,37 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <RelativeLayout
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorAccent">
+            android:layout_height="50sp"
+            android:background="#0ac5a8">
 
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/Calltoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:navigationIcon="@drawable/abc_vector_test"
+                android:background="#0ac5a8"
+                android:theme="?attr/actionBarTheme">
+                <TextView
+                    android:id="@+id/toolBarCall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="추천"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </androidx.appcompat.widget.Toolbar>
             <Button
-                android:id="@+id/Backbtn"
-                android:layout_width="51dp"
+                android:id="@+id/menuBtn"
+                android:layout_width="41dp"
                 android:layout_height="wrap_content"
-                android:width="60dp"
-                android:background="@android:drawable/ic_menu_revert" />
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="180dp"
-                android:padding="10dp"
-                android:text="추천"
-                android:textFontWeight="700"
-                android:textSize="40px" />
-
-
-        </RelativeLayout>
+                android:layout_alignEnd="@id/menuBtn"
+                android:layout_alignRight="@id/menuBtn"
+                android:layout_marginLeft="370dp"
+                android:background="@drawable/ic_menu_bg_35dp" />
+        </FrameLayout>
     </LinearLayout>
 
 
@@ -49,7 +56,8 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="15dp"
             android:height="70dp"
-            android:background="@drawable/round_button_trance"
+            android:background="@drawable/round_button_2"
+            android:layout_margin="@drawable/shape_line"
             android:text="AI 추천" />
 
         <Button
@@ -58,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="15dp"
             android:height="70dp"
-            android:background="@drawable/round_button_trance"
+            android:background="@drawable/round_button_2"
             android:text="랜덤추천" />
 
         <Button
@@ -67,7 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="15dp"
             android:height="70dp"
-            android:background="@drawable/round_button_trance"
+            android:background="@drawable/round_button_2"
             android:text="주변에 있는 친구" />
 
         <Button
@@ -76,7 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
             android:height="70dp"
-            android:background="@drawable/round_button_trance"
+            android:background="@drawable/round_button_2"
             android:text="같은동네 사는 친구" />
 
         <Button
@@ -85,62 +93,16 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="15dp"
             android:height="70dp"
-            android:background="@drawable/round_button_trance"
+            android:background="@drawable/round_button_2"
             android:text="취미가 같은 친구" />
     </LinearLayout>
-
-    <LinearLayout
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@color/colorAccent"
-        android:orientation="horizontal">
-
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="10dp"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:text="홈" />
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="10dp"
-
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:text="게시판" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="10dp"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:text="추천" />
-
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="10dp"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:text="친구" />
-
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="10dp"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:text="채팅방" />
-    </LinearLayout>
+        android:background="#0ac5a8"
+        app:itemIconTint="#fdffee"
+        app:itemTextColor="#000000"
+        app:menu="@menu/menu_bottom_navigation" />
 </LinearLayout>

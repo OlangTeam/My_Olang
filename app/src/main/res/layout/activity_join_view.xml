@@ -12,27 +12,29 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <RelativeLayout
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorAccent">
-            <Button
-                android:id="@+id/Backbtn"
-                android:layout_width="51dp"
-                android:layout_height="wrap_content"
-                android:width="60dp"
-                android:background="@android:drawable/ic_menu_revert" />
-            <Button
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="180dp"
-                android:padding="10dp"
-                android:text="추천"
-                android:textFontWeight="700"
-                android:textSize="40px" />
+            android:layout_height="50sp"
+            android:background="#0ac5a8">
 
-        </RelativeLayout>
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/Calltoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:navigationIcon="@drawable/abc_vector_test"
+                android:background="#0ac5a8"
+                android:theme="?attr/actionBarTheme">
+                <TextView
+                    android:id="@+id/toolBarCall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="회원가입"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </androidx.appcompat.widget.Toolbar>
+        </FrameLayout>
 
     </LinearLayout>
 
@@ -62,6 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/round_button_2"
             android:text="중복확인" />
     </LinearLayout>
 
@@ -147,6 +150,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/round_button_2"
             android:text="인증번호 확인" />
     </LinearLayout>
 
@@ -176,6 +180,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/round_button_2"
             android:text="인증번호 확인" />
     </LinearLayout>
 
@@ -216,9 +221,11 @@
 
         <Button
             android:id="@+id/button25"
-            android:layout_width="wrap_content"
+            android:layout_width="16dp"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
             android:layout_weight="1"
+            android:background="@drawable/round_button_2"
             android:text="주소찾기" />
     </LinearLayout>
 
@@ -268,9 +275,11 @@
 
         <Button
             android:id="@+id/button26"
-            android:layout_width="wrap_content"
+            android:layout_width="39dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/round_button_2"
             android:text="img..." />
     </LinearLayout>
 
@@ -285,6 +294,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/round_button_2"
+            android:layout_marginRight="5dp"
             android:text="회원가입" />
 
         <Button
@@ -292,6 +303,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/round_button_2"
+            android:layout_marginLeft="5dp"
             android:text="취소" />
     </LinearLayout>
 </LinearLayout>

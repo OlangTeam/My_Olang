@@ -63,6 +63,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -153,7 +154,7 @@
                 android:layout_weight="1"
                 android:layout_marginTop="13dp"
                 android:background="#00ff0000"
-                android:drawableTop="@drawable/ic_home_bg_50dp"></Button>
+                android:drawableTop="@drawable/ic_home_bg_35dp"></Button>
 
             <Button
                 android:layout_width="wrap_content"
@@ -161,7 +162,7 @@
                 android:layout_weight="1"
                 android:layout_marginTop="13dp"
                 android:background="#00ff0000"
-                android:drawableTop="@drawable/ic_format_list_bulleted_bg_50dp"
+                android:drawableTop="@drawable/ic_format_list_bulleted_bg_35dp"
                 ></Button>
             <Button
                 android:layout_width="wrap_content"
@@ -169,21 +170,21 @@
                 android:background="#00ff0000"
                 android:layout_weight="1"
                 android:layout_marginTop="13dp"
-                android:drawableTop="@drawable/ic_thumb_up_bg_50dp"></Button>
+                android:drawableTop="@drawable/ic_thumb_up_bg_35dp"></Button>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:layout_weight="1"
                 android:layout_marginTop="13dp"
                 android:background="#00ff0000"
-                android:drawableTop="@drawable/ic_people_bg_50dp"></Button>
+                android:drawableTop="@drawable/ic_people_bg_35dp"></Button>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:layout_weight="1"
                 android:layout_marginTop="13dp"
                 android:background="#00ff0000"
-                android:drawableTop="@drawable/ic_chat_bubble_bg_50dp"></Button>
+                android:drawableTop="@drawable/ic_chat_bubble_bg_35dp"></Button>
 
         </LinearLayout>
         </LinearLayout>

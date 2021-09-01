@@ -8,30 +8,40 @@
     android:background="#fdffee"
     tools:context=".CancelView">
 
-    <LinearLayout
-        android:orientation="horizontal"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="50sp"
+        android:background="#0ac5a8">
 
-        <TextView
-            android:text="마이페이지"
-            android:textSize="20dp"
-            android:textColor="#fff"
-            android:gravity="center"
-            android:background="#0ac5a8"
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/cancelbar"
             android:layout_width="match_parent"
-            android:layout_height="50dp" />
-    </LinearLayout>
+            android:layout_height="match_parent"
+            android:background="#0ac5a8"
+            android:theme="?attr/actionBarTheme"
+            app:navigationIcon="@drawable/abc_vector_test">
+
+            <TextView
+                android:id="@+id/barcancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="내 정보"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+    </FrameLayout>
 
     <TextView
-        android:id="@+id/Card"
+        android:id="@+id/cancel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_marginTop="30dp"
         android:text="정말 취소하시겠습니까?"
         android:textStyle="bold"
-        android:textSize="30dp" />
+        android:textSize="20dp" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -42,7 +52,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="50dp"
-            android:textSize="15dp"
+            android:textSize="16dp"
             android:textColor="#fff"
             android:padding="16dp"
             android:layout_marginLeft="50dp"
@@ -53,7 +63,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="50dp"
-            android:textSize="15dp"
+            android:textSize="16dp"
             android:textColor="#fff"
             android:padding="16dp"
             android:layout_marginLeft="50dp"

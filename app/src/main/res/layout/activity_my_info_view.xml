@@ -10,45 +10,48 @@
     >
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="50sp"
         android:background="#0ac5a8">
-        <Button
-            android:id="@+id/back"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="25dp"
-            android:background="#0ac5a8"
-            android:drawableBottom="@drawable/ic_undo_bg_50dp"></Button>
 
-        <TextView
-            android:id="@+id/myinfoview"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="내 정보"
-            android:textSize="20dp"
-            android:textColor="#FFFFFF"
-            />
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/myinfobar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0ac5a8"
+            android:theme="?attr/actionBarTheme"
+            app:navigationIcon="@drawable/abc_vector_test">
+
+            <TextView
+                android:id="@+id/barmyinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="내 정보"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
     </FrameLayout>
 
 
     <TextView
-            android:id="@+id/textViewID"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="25dp"
-            android:text="ID"
-            android:textSize="20dp" />
+        android:id="@+id/textViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:text="ID"
+        android:textSize="16dp" />
 
 
     <EditText
-            android:id="@+id/ID"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="75dp"
-            android:ems="10" />
+        android:id="@+id/ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:ems="10"
+        android:background="#FFFFFF"
+        android:drawableBottom="@drawable/shape_line2" />
 
     <TextView
             android:id="@+id/myNick"
@@ -56,21 +59,25 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
             android:text="닉네임"
-            android:textSize="20dp" />
+            android:textSize="16dp" />
 
 
     <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
+
     <EditText
-            android:id="@+id/Nick"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/ID"
-            android:layout_marginLeft="75dp"
-            android:ems="10"
-            android:inputType="textPassword" />
+        android:id="@+id/Nick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ID"
+        android:layout_marginLeft="40dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"
+        android:drawableBottom="@drawable/shape_line"/>
+
     <Button
         android:id="@+id/x2"
         android:layout_width="30dp"
@@ -83,40 +90,45 @@
         android:textColor="#FFFFFF"></Button>
 
 </LinearLayout>
+
     <TextView
-            android:id="@+id/myName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="35dp"
-            android:text="이름"
-            android:textSize="20dp" />
+        android:id="@+id/myName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:text="이름"
+        android:textSize="16dp" />
 
     <EditText
-            android:id="@+id/editName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/ID"
-            android:layout_marginLeft="75dp"
-            android:ems="10"
-            android:inputType="textPassword" />
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ID"
+        android:layout_marginLeft="40dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"/>
 
-        <TextView
-            android:id="@+id/textEmail"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:text="이메일"
-            android:textSize="20dp" />
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="이메일"
+        android:textSize="16dp" />
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <EditText
             android:id="@+id/editEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="75dp"
+            android:layout_marginLeft="40dp"
             android:ems="10"
+            android:background="#FFFFFF"
             />
         <Button
             android:id="@+id/buttonEmail"
@@ -125,7 +137,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="25dp"
             android:layout_marginLeft="10dp"
-
+            android:textSize="16dp"
             android:background="@drawable/round_button"
             android:text="중복확인"
             android:textColor="#FFFFFF"></Button>
@@ -137,17 +149,20 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:text="전화번호"
-            android:textSize="20dp" />
+            android:textSize="16dp"
+            android:background="#FFFFFF"/>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <EditText
             android:id="@+id/editPhone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="75dp"
-            android:ems="10" />
+            android:layout_marginLeft="40dp"
+            android:ems="10"
+            android:background="#FFFFFF"/>
 
         <Button
             android:id="@+id/button"
@@ -158,22 +173,25 @@
             android:layout_marginLeft="10dp"
             android:background="@drawable/round_button"
             android:text="인증"
+            android:textSize="16dp"
             android:textColor="#FFFFFF"></Button>
     </LinearLayout>
+
     <TextView
         android:id="@+id/textAddr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
         android:text="주소"
-        android:textSize="20dp" />
+        android:textSize="16dp" />
 
     <EditText
-            android:id="@+id/editAddr"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="75dp"
-            android:ems="10" />
+        android:id="@+id/editAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:ems="10"
+        android:background="#FFFFFF"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -191,7 +209,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
-
+            android:textSize="16dp"
             android:text="남성"/>
 
         <RadioButton
@@ -199,6 +217,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
+            android:textSize="16dp"
             android:text="여성"/>
     </LinearLayout>
     <LinearLayout
@@ -213,15 +232,16 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:text="학생증 인증"
-            android:textSize="20dp" />
+            android:textSize="16dp" />
 
         <Button
             android:id="@+id/select"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="160dp"
+            android:layout_marginLeft="145dp"
             android:background="@drawable/round_button"
             android:text="선택"
+            android:textSize="16dp"
             android:textColor="#FFFFFF"></Button>
     </LinearLayout>
 
@@ -234,7 +254,7 @@
             android:id="@+id/change"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="45dp"
+            android:layout_marginLeft="70dp"
             android:background="@drawable/round_button"
             android:text="수정완료"
             android:textColor="#FFFFFF" />
@@ -244,7 +264,7 @@
             android:id="@+id/cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="275dp"
+            android:layout_marginLeft="240dp"
             android:background="@drawable/round_button"
             android:text="취소"
             android:textColor="#FFFFFF" />

@@ -40,8 +40,7 @@
         android:layout_height="wrap_content"
         android:textSize="18dp"
         android:textStyle="bold"
-        android:text="나는 이런 사람이에요"
-
+        android:text="  <나는 이런 사람이에요>"
         android:background="@drawable/square"
         />
 
@@ -49,10 +48,10 @@
         android:id="@+id/character1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18dp"
+        android:textSize="16dp"
         android:textStyle="bold"
-        android:text="성격"
-        android:background="@drawable/shape_rectangle"
+        android:text="● 성격"
+        android:layout_marginLeft="10dp"
         />
 
 
@@ -60,129 +59,130 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
 
         >
-        <TextView
+        <Button
             android:id="@+id/sexy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="섹시한"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/cute"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="귀여운"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/weird"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="사차원"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/different"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="엉뚱한"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/pure"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="청순한"
-            android:layout_margin="7dp"/>
+            android:layout_margin="3dp"/>
 
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:layout_marginLeft="10dp"
         android:orientation="horizontal"
         >
-        <TextView
+        <Button
             android:id="@+id/doggy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="댕댕이"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/funny"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="유쾌한"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/lively"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="활발한"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/quietly"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="얌전한"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/smart"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="지적인"
-            android:layout_margin="7dp"/>
+            android:layout_margin="3dp"/>
 
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:layout_marginLeft="10dp"
         android:orientation="horizontal"
         >
-        <TextView
+        <Button
             android:id="@+id/fresh"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="상큼한"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/sense"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="16dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:textSize="12dp"
             android:text="센스있는"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/abuse"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="욕쟁이"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/jangnan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="16dp"
-            android:text="장난스러운"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:textSize="12dp"
+            android:text="잔망있는"
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/cool"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="쿨한"
-            android:layout_margin="7dp"/>
+            android:layout_margin="3dp"/>
 
     </LinearLayout>
 
@@ -192,58 +192,52 @@
         android:layout_height="wrap_content"
         android:textSize="16dp"
         android:textStyle="bold"
-        android:text="취미"
-        android:background="@drawable/shape_rectangle"
+        android:text="● 취미"
+        android:layout_marginLeft="10dp"
         />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:layout_marginLeft="10dp"
         android:orientation="horizontal"
         >
-    <TextView
+    <Button
         android:id="@+id/noraebang"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
         android:textSize="16dp"
-        android:text="노래방가기"
-        android:layout_margin="7dp"/>
-    <TextView
-        android:id="@+id/movie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="16dp"
-        android:text="영화보기"
-        android:layout_margin="7dp"/>
-    <TextView
+        android:text="노래"
+        android:layout_margin="3dp"/>
+
+    <Button
         android:id="@+id/book"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
         android:textSize="16dp"
         android:text="독서"
-        android:layout_margin="7dp"/>
-    <TextView
+        android:layout_margin="3dp"/>
+    <Button
         android:id="@+id/walk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
         android:textSize="16dp"
         android:text="산책"
-        android:layout_margin="7dp"/>
-    <TextView
+        android:layout_margin="3dp"/>
+    <Button
         android:id="@+id/game"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
         android:textSize="16dp"
         android:text="게임"
-        android:layout_margin="7dp"/>
+        android:layout_margin="3dp"/>
 
-        <TextView
+        <Button
             android:id="@+id/exercise"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="운동"
-            android:layout_margin="7dp"/>
+            android:layout_margin="3dp"/>
     </LinearLayout>
 
     <TextView
@@ -252,7 +246,7 @@
         android:layout_height="wrap_content"
         android:textSize="18dp"
         android:textStyle="bold"
-        android:text="나는 이런 사람이 좋아요"
+        android:text="  <나는 이런 사람이 좋아요>"
         android:layout_marginTop="20dp"
         android:background="@drawable/square"/>
 
@@ -262,136 +256,137 @@
         android:layout_height="wrap_content"
         android:textSize="16dp"
         android:textStyle="bold"
-        android:text="성격"
-        android:background="@drawable/shape_rectangle"
+        android:text="● 성격"
+        android:layout_marginLeft="10dp"
         />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-
+        android:layout_marginLeft="10dp"
         >
-        <TextView
+        <Button
             android:id="@+id/sexy2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="섹시한"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/cute2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="귀여운"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/weird2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="사차원"
-            android:layout_margin="7dp"/>
-        <TextView
-            android:id="@+id/differen2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_margin="3dp"/>
+        <Button
+            android:id="@+id/different2"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="엉뚱한"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/pure2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="청순한"
-            android:layout_margin="7dp"/>
+            android:layout_margin="3dp"/>
 
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:layout_marginLeft="10dp"
         android:orientation="horizontal"
         >
-        <TextView
+        <Button
             android:id="@+id/doggy2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="댕댕이"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/funny2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="유쾌한"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/lively2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="활발한"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/quietly2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="얌전한"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/smart2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="지적인"
-            android:layout_margin="7dp"/>
+            android:layout_margin="3dp"/>
 
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
         >
-        <TextView
+        <Button
             android:id="@+id/fresh2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="상큼한"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/sense2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="16dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:textSize="12dp"
             android:text="센스있는"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/abuse2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="욕쟁이"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/jangnan2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="16dp"
-            android:text="장난스러운"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:textSize="12dp"
+            android:text="장망있는"
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/cool2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="쿨한"
-            android:layout_margin="7dp"/>
+            android:layout_margin="3dp"/>
 
     </LinearLayout>
 
@@ -400,59 +395,54 @@
         android:id="@+id/hobby2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18dp"
+        android:textSize="16dp"
         android:textStyle="bold"
-        android:text="취미"
-        android:background="@drawable/shape_rectangle"
+        android:text="● 취미"
+        android:layout_marginLeft="10dp"
         />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
         >
-        <TextView
+        <Button
             android:id="@+id/noraebang2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
-            android:text="노래방가기"
-            android:layout_margin="7dp"/>
-        <TextView
-            android:id="@+id/movie2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="16dp"
-            android:text="영화보기"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:text="노래"
+            android:layout_margin="3dp"/>
+
+        <Button
             android:id="@+id/book2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="독서"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/walk2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="산책"
-            android:layout_margin="7dp"/>
-        <TextView
+            android:layout_margin="3dp"/>
+        <Button
             android:id="@+id/game2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="게임"
-            android:layout_margin="7dp"/>
+            android:layout_margin="3dp"/>
 
-        <TextView
+        <Button
             android:id="@+id/exercise2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
             android:textSize="16dp"
             android:text="운동"
-            android:layout_margin="7dp"/>
+            android:layout_margin="3dp"/>
     </LinearLayout>
 
     <LinearLayout

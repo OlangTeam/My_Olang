@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Hobby_Reccomend_View"
+            android:exported="true" />
+        <activity
+            android:name=".Same_Reccomend_View"
+            android:exported="true" />
+        <activity
+            android:name=".Near_Reccomend_View"
+            android:exported="true" />
+        <activity
+            android:name=".Random_Reccomend_View"
+            android:exported="true" />
+        <activity
+            android:name=".AI_Reccomend_View"
+            android:exported="true" />
+        <activity
             android:name=".PW_Found_Result_View"
             android:exported="true" />
         <activity
@@ -25,7 +40,7 @@
             android:name=".One_Two_One_One_One"
             android:exported="true" />
         <activity
-            android:name=".Recommand_View"
+            android:name=".Reccommend_View"
             android:exported="true" />
         <activity
             android:name=".Recommend_Caegory_View"

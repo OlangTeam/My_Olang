@@ -45,14 +45,7 @@
         </FrameLayout>
     </LinearLayout>
 
-    <ScrollView
-        android:layout_width="5dp"
-        android:layout_height="2dp"
-        android:layout_above="@id/navigationView"
-        android:layout_weight="1"
-        android:fillViewport="true">
-
-        <ImageView
+    <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="347dp"
@@ -60,13 +53,17 @@
             android:layout_marginBottom="0dp"
             android:background="#F8E5CC" />
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:text="닉네임(나이)"
-            android:textSize="18dp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="닉네임(나이)"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/textView5"
@@ -76,7 +73,16 @@
             android:text="나는 이런사람이에요"
             android:textSize="18dp" />
 
-        <LinearLayout
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:layout_gravity="end"
+            app:srcCompat="@android:drawable/ic_notification_overlay" />
+    </LinearLayout>
+
+    <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -212,7 +218,7 @@
                 android:layout_weight="1"
                 android:text="별로에요" />
         </LinearLayout>
-    </ScrollView>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigationView"
         android:layout_width="match_parent"

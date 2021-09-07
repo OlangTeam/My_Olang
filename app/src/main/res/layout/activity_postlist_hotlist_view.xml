@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/hotlist"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#fdffee">
+    android:background="#fdffee"
+    android:orientation="vertical">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -24,7 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="ㅇㅇ게시판"
+                android:text="즐겨찾기한 게시물"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -33,16 +34,8 @@
                 android:id="@+id/search"
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
-                android:background="#0ac5a8"
                 android:layout_gravity="right"
-                android:drawableRight="@drawable/ic_baseline_edit_24"></Button>
-
-            <Button
-                android:id="@+id/write"
-                android:layout_width="50dp"
-                android:layout_height="match_parent"
                 android:background="#0ac5a8"
-                android:layout_gravity="right"
                 android:drawableRight="@drawable/ic_baseline_search_24"></Button>
 
         </androidx.appcompat.widget.Toolbar>
@@ -66,7 +59,7 @@
                 android:id="@+id/postlistview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_below="@+id/textView"/>
+                android:layout_below="@+id/textView" />
         </FrameLayout>
     </ScrollView>
 </LinearLayout>

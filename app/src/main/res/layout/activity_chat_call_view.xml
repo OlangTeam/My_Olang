@@ -45,6 +45,7 @@
         android:layout_gravity="center">
 
         <Button
+            android:onClick="mutemode"
             android:id="@+id/mute"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -53,9 +54,10 @@
             android:background="@drawable/circlebutton"
             android:text="음소거"
             android:textColor="#fff"
-            android:textSize="18sp" />
+            android:textSize="18sp"/>
 
         <Button
+            android:onClick="blindmode"
             android:id="@+id/blind"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -66,6 +68,7 @@
             android:textSize="18sp" />
 
         <Button
+            android:onClick="speakermode"
             android:id="@+id/speaker"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -80,6 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center">
         <Button
+            android:onClick="callexit"
             android:id="@+id/callexit"
             android:layout_width="100dp"
             android:layout_height="100dp"

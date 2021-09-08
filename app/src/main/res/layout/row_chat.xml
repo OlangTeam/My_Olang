@@ -10,7 +10,8 @@
        android:layout_width="wrap_content"
        android:layout_height="match_parent"
        android:orientation="vertical"
-       android:background="@drawable/roundstroke">
+       android:background="@drawable/roundstroke"
+       android:padding="10dp">
     <TextView
         android:textSize="16sp"
         android:text="닉네임"

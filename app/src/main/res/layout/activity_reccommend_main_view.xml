@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fdffee">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="#0ac5a8">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/Calltoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:navigationIcon="@drawable/abc_vector_test"
+                android:background="#0ac5a8"
+                android:theme="?attr/actionBarTheme">
+                <TextView
+                    android:id="@+id/toolBarCall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="추천"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </androidx.appcompat.widget.Toolbar>
+            <Button
+                android:id="@+id/menuBtn"
+                android:layout_width="41dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/menuBtn"
+                android:layout_alignRight="@id/menuBtn"
+                android:layout_marginLeft="370dp"
+                android:background="@drawable/ic_menu_bg_35dp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="625dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/profile_view"
+            android:layout_width="match_parent"
+            android:layout_height="439dp"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="0dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/intro_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="60dp"
+            android:text="(닉네임) (나이)"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/more_categ_btn"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:text="더 많은 카테고리 보기>"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+    //footer
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#0ac5a8"
+        app:itemIconTint="#fdffee"
+        app:itemTextColor="#000000"
+        app:menu="@menu/menu_bottom_navigation" />
+
+</LinearLayout>

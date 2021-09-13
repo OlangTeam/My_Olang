@@ -99,7 +99,8 @@
             android:id="@+id/account"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:textSize="16dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
             android:text="계정"
             android:drawableBottom="@drawable/shape_line"/>
         <TextView
@@ -129,7 +130,8 @@
             android:id="@+id/alarmSet"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:textSize="16dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
             android:text="알림 설정"
             android:drawableBottom="@drawable/shape_line"/>
 
@@ -161,7 +163,8 @@
             android:id="@+id/theOthers"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:textSize="16dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
             android:text="기타"
             android:drawableBottom="@drawable/shape_line"/>
         <TextView

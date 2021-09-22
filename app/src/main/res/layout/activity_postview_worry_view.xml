@@ -31,12 +31,6 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <Button
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
-                android:background="#0ac5a8"
-                android:layout_gravity="right"
-                android:drawableRight="@drawable/ic_baseline_more_vert_24"></Button>
 
         </androidx.appcompat.widget.Toolbar>
 

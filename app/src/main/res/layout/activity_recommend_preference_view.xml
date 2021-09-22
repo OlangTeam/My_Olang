@@ -170,18 +170,18 @@
             android:text="욕쟁이"
             android:layout_margin="3dp"/>
         <Button
-            android:id="@+id/jangnan"
-            android:layout_width="70dp"
-            android:layout_height="40dp"
-            android:textSize="12dp"
-            android:text="잔망있는"
-            android:layout_margin="3dp"/>
-        <Button
-            android:id="@+id/cool"
+            android:id="@+id/careful"
             android:layout_width="70dp"
             android:layout_height="40dp"
             android:textSize="16dp"
-            android:text="쿨한"
+            android:text="세심한"
+            android:layout_margin="3dp"/>
+        <Button
+            android:id="@+id/chic"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:textSize="16dp"
+            android:text="시크한"
             android:layout_margin="3dp"/>
 
     </LinearLayout>
@@ -195,50 +195,7 @@
         android:text="● 취미"
         android:layout_marginLeft="10dp"
         />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:orientation="horizontal"
-        >
-    <Button
-        android:id="@+id/noraebang"
-        android:layout_width="70dp"
-        android:layout_height="40dp"
-        android:textSize="16dp"
-        android:text="노래"
-        android:layout_margin="3dp"/>
 
-    <Button
-        android:id="@+id/book"
-        android:layout_width="70dp"
-        android:layout_height="40dp"
-        android:textSize="16dp"
-        android:text="독서"
-        android:layout_margin="3dp"/>
-    <Button
-        android:id="@+id/walk"
-        android:layout_width="70dp"
-        android:layout_height="40dp"
-        android:textSize="16dp"
-        android:text="산책"
-        android:layout_margin="3dp"/>
-    <Button
-        android:id="@+id/game"
-        android:layout_width="70dp"
-        android:layout_height="40dp"
-        android:textSize="16dp"
-        android:text="게임"
-        android:layout_margin="3dp"/>
-
-        <Button
-            android:id="@+id/exercise"
-            android:layout_width="70dp"
-            android:layout_height="40dp"
-            android:textSize="16dp"
-            android:text="운동"
-            android:layout_margin="3dp"/>
-    </LinearLayout>
 
     <TextView
         android:id="@+id/ilike"
@@ -374,18 +331,18 @@
             android:text="욕쟁이"
             android:layout_margin="3dp"/>
         <Button
-            android:id="@+id/jangnan2"
-            android:layout_width="70dp"
-            android:layout_height="40dp"
-            android:textSize="12dp"
-            android:text="장망있는"
-            android:layout_margin="3dp"/>
-        <Button
-            android:id="@+id/cool2"
+            android:id="@+id/careful2"
             android:layout_width="70dp"
             android:layout_height="40dp"
             android:textSize="16dp"
-            android:text="쿨한"
+            android:text="세심한"
+            android:layout_margin="3dp"/>
+        <Button
+            android:id="@+id/chic2"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:textSize="16dp"
+            android:text="시크한"
             android:layout_margin="3dp"/>
 
     </LinearLayout>
@@ -400,51 +357,7 @@
         android:text="● 취미"
         android:layout_marginLeft="10dp"
         />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="10dp"
-        >
-        <Button
-            android:id="@+id/noraebang2"
-            android:layout_width="70dp"
-            android:layout_height="40dp"
-            android:textSize="16dp"
-            android:text="노래"
-            android:layout_margin="3dp"/>
-
-        <Button
-            android:id="@+id/book2"
-            android:layout_width="70dp"
-            android:layout_height="40dp"
-            android:textSize="16dp"
-            android:text="독서"
-            android:layout_margin="3dp"/>
-        <Button
-            android:id="@+id/walk2"
-            android:layout_width="70dp"
-            android:layout_height="40dp"
-            android:textSize="16dp"
-            android:text="산책"
-            android:layout_margin="3dp"/>
-        <Button
-            android:id="@+id/game2"
-            android:layout_width="70dp"
-            android:layout_height="40dp"
-            android:textSize="16dp"
-            android:text="게임"
-            android:layout_margin="3dp"/>
-
-        <Button
-            android:id="@+id/exercise2"
-            android:layout_width="70dp"
-            android:layout_height="40dp"
-            android:textSize="16dp"
-            android:text="운동"
-            android:layout_margin="3dp"/>
-    </LinearLayout>
-
+    
     <LinearLayout
         android:layout_margin="20dp"
         android:layout_height="wrap_content"

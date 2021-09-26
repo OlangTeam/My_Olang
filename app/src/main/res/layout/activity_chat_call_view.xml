@@ -9,16 +9,25 @@
     android:orientation="vertical">
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="50sp"
         android:background="#0ac5a8">
-        <TextView
-            android:id="@+id/friend1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="음성통화"
-            android:textSize="20dp"
-            android:textColor="#FFFFFF"/>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarCall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0ac5a8"
+            android:theme="?attr/actionBarTheme">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="음성통화"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
     </FrameLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,6 +45,7 @@
         android:layout_gravity="center">
 
         <Button
+            android:onClick="mutemode"
             android:id="@+id/mute"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -44,9 +54,10 @@
             android:background="@drawable/circlebutton"
             android:text="음소거"
             android:textColor="#fff"
-            android:textSize="20dp" />
+            android:textSize="18sp"/>
 
         <Button
+            android:onClick="blindmode"
             android:id="@+id/blind"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -54,9 +65,10 @@
             android:background="@drawable/circlebutton"
             android:text="화면숨김"
             android:textColor="#fff"
-            android:textSize="20dp" />
+            android:textSize="18sp" />
 
         <Button
+            android:onClick="speakermode"
             android:id="@+id/speaker"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -64,20 +76,20 @@
             android:background="@drawable/circlebutton"
             android:text="스피커"
             android:textColor="#fff"
-            android:textSize="20dp" />
+            android:textSize="18sp" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center">
         <Button
+            android:onClick="callexit"
             android:id="@+id/callexit"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/circlebuttonred"
             android:text="종료"
             android:textColor="#fff"
-            android:textSize="20dp" />
+            android:textSize="18sp" />
     </LinearLayout>
-
 </LinearLayout>

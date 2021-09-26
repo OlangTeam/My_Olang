@@ -1,51 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.DrawerLayout
-    android:id="@+id/drawerLayout"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChatView">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ChatView"
+    android:orientation="horizontal">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#0ac5a8">
+        android:orientation="vertical"
+        android:background="#fdffee">
 
-        <Button
-            android:id="@+id/back"
-            android:layout_width="60dp"
-            android:layout_height="match_parent"
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="#0ac5a8">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarChatSelect"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0ac5a8"
+                android:theme="?attr/actionBarTheme"
+                app:navigationIcon="@drawable/abc_vector_test">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="채팅방 이름"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/menuOpen"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:background="#00ff0000"
+                    android:drawableTop="@drawable/ic_menu_bg_35dp"
+                    android:textSize="17dp"></Button>
+            </androidx.appcompat.widget.Toolbar>
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id = "@+id/my_recycler_view"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
             android:background="#0ac5a8"
-            android:drawableBottom="@drawable/ic_undo_bg_50dp"></Button>
+            android:weightSum="1">
 
-        <TextView
-            android:id="@+id/friend1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="채팅방 이름"
-            android:textSize="20dp"
-            android:textColor="#FFFFFF"/>
+            <Button
+                android:id="@+id/Button_more"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:drawableLeft="@drawable/ic_baseline_add_35" />
+            <EditText
+                android:id="@+id/EditText_chat"
+                android:hint=" 채팅을 입력하세요."
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"/>
+            <Button
+                android:id="@+id/Button_send"
+                android:text="SEND"
+                android:textColor="#0ac5a8"
+                android:layout_width="80dp"
+                android:layout_height="60dp"/>
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/menuOpen"
-            android:layout_width="60dp"
-            android:layout_height="40dp"
-            android:layout_gravity="right"
-            android:layout_marginTop="5dp"
-            android:background="#00ff0000"
-            android:drawableTop="@drawable/ic_menu_bg_40dp"
-            android:textSize="17dp"></Button>
     </LinearLayout>
-    <LinearLayout
+    <androidx.drawerlayout.widget.DrawerLayout
         android:id="@+id/drawer"
         android:layout_width="300dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center_horizontal"
         android:background="#fdffee"
-        android:layout_gravity="start">
+        android:layout_gravity="right">
 
         <TextView
             android:layout_width="wrap_content"
@@ -107,11 +149,6 @@
             android:layout_height="wrap_content"
             android:background="@drawable/round_button"
             android:text="나가기"/>
-
-    </LinearLayout>
-
-
-
         <Button
             android:id="@+id/btn_CloseDrawer"
             android:layout_width="match_parent"
@@ -119,6 +156,6 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="10dp"
-            android:text="드로어 닫기" />
-
-    </android.support.v4.widget.DrawerLayout>
+            android:text="메뉴 닫기" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+</LinearLayout>

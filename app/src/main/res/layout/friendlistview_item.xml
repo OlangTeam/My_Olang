@@ -30,6 +30,6 @@ android:background="#fdffee">
         android:layout_gravity="right"
         android:background="#00ff0000"
         android:layout_marginTop="14dp"
-        android:drawableBottom="@drawable/ic_chat_bubble_pt_30dp"></Button>
+        android:drawableBottom="@drawable/ic_chat_bubble_bg_35dp"></Button>
 </FrameLayout>
 </LinearLayout>

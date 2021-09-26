@@ -7,83 +7,56 @@
     android:orientation="vertical"
     android:background="#fdffee"
     tools:context=".ChatListView">
+
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="50sp"
         android:background="#0ac5a8">
 
-        <Button
-            android:id="@+id/back"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            android:background="#0ac5a8"
-            android:drawableBottom="@drawable/ic_undo_bg_50dp"></Button>
-
-        <TextView
-            android:id="@+id/friend1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="채팅방"
-            android:textSize="20dp"
-            android:textColor="#FFFFFF"/>
-    </FrameLayout>
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="600dp">
-        <ListView
-            android:id="@+id/friendlistView"
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarChatList"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/textView">
-        </ListView>
+            android:background="#0ac5a8"
+            android:theme="?attr/actionBarTheme"
+            app:navigationIcon="@drawable/abc_vector_test">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="채팅방"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
     </FrameLayout>
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#0ac5a8">
-
-        <Button
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_above="@id/navigationView"
+        android:fillViewport="true">
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:layout_marginTop="13dp"
-            android:background="#00ff0000"
-            android:drawableTop="@drawable/ic_home_bg_50dp"></Button>
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:layout_marginTop="13dp"
-            android:background="#00ff0000"
-            android:drawableTop="@drawable/ic_format_list_bulleted_bg_50dp"
-            ></Button>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:background="#00ff0000"
-            android:layout_weight="1"
-            android:layout_marginTop="13dp"
-            android:drawableTop="@drawable/ic_thumb_up_bg_50dp"></Button>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:layout_marginTop="13dp"
-            android:background="#00ff0000"
-            android:drawableTop="@drawable/ic_people_bg_50dp"></Button>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:layout_marginTop="13dp"
-            android:background="#00ff0000"
-            android:drawableTop="@drawable/ic_chat_bubble_bg_50dp"></Button>
-
-    </LinearLayout>
-
-
+            <ListView
+                android:id="@+id/chatlistView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView"></ListView>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#0ac5a8"
+        app:itemIconTint="#fdffee"
+        app:itemTextColor="#000000"
+        app:menu="@menu/menu_bottom_navigation" />
 </LinearLayout>

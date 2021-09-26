@@ -5,41 +5,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FriendApplyView"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#fdffee">
 
-        <FrameLayout
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#0ac5a8">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarFriendApply"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:background="#0ac5a8">
-
-
-            <Button
-                android:id="@+id/back"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
-                android:background="#0ac5a8"
-                android:drawableBottom="@drawable/ic_undo_bg_50dp"></Button>
-
+            android:layout_height="match_parent"
+            android:background="#0ac5a8"
+            android:theme="?attr/actionBarTheme"
+            app:navigationIcon="@drawable/abc_vector_test">
             <TextView
-                android:id="@+id/friend1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="친구요청"
-                android:textSize="20dp"
-                android:textColor="#FFFFFF"/>
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent">
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fillViewport="true">
             <ListView
                 android:id="@+id/friendlistView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/textView">
             </ListView>
-        </FrameLayout>
-
+        </ScrollView>
+    </FrameLayout>
 </LinearLayout>

@@ -10,5 +10,6 @@ public class AI_Reccomend_View extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ai_reccomend_view);
+        //dddd
     }
 }

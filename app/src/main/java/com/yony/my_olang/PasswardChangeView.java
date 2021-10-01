@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MyInfoView extends AppCompatActivity {
+public class PasswardChangeView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my_profile_change_view);
+        setContentView(R.layout.activity_passward_change_view);
     }
 }

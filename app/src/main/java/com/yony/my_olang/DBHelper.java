@@ -19,8 +19,9 @@ public class DBHelper extends SQLiteOpenHelper {
                 + "hit int,"
                 + "user_idx int,"
                 + "boardcol char);";
-
         db.execSQL(sql);
+        db.execSQL("CREATE TABLE reply(idx INT primary key autoincrement, con_num INT, user_idx INT, content TEXT, date DATE, thumbs INT)");
+        db.execSQL("CREATE TABLE rereply(idx INT primary key autoincrement, con_num INT, reply_num INT, user_idx INT, content TEXT, date DATE, thumbs INT)");
     }
 
     @Override

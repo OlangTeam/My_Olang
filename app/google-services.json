@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1491717637",
+    "project_id": "olang-2a406",
+    "storage_bucket": "olang-2a406.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1491717637:android:b2fe8cf3cf8fd27cfd566c",
+        "android_client_info": {
+          "package_name": "com.yony.my_olang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1491717637-egb7tja4sc2s3eqb21gqasfkn996461t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdFh8FSftjDaXHBsjG9PcbvSDsVT7lo1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1491717637-egb7tja4sc2s3eqb21gqasfkn996461t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -364,7 +364,9 @@
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:layout_marginTop="15dp">
+
         <Button
+            android:id="@+id/confirm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="35dp"
@@ -372,9 +374,10 @@
             android:background="@drawable/round_button"
             android:textSize="16dp"
             android:text="수정 완료"
-            android:textColor="#FFFFFF"></Button>
+            android:textColor="#FFFFFF"> </Button>
 
         <Button
+            android:id="@+id/cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"

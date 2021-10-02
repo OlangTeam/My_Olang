@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class PhoneNumChangeView extends AppCompatActivity {
+public class MyProfileChangeView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_phone_num_change_view);
+        setContentView(R.layout.activity_my_profile_change_view);
     }
 }

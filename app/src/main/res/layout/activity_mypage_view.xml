@@ -39,6 +39,7 @@
         android:textStyle="bold"
         android:text="내 프로필 확인 · 수정"
         android:drawableBottom="@drawable/shape_line"/>
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_height="wrap_content"
@@ -111,18 +112,19 @@
             android:text="계정"
             android:drawableBottom="@drawable/shape_line"/>
         <TextView
-            android:id="@+id/chPW"
+            android:id="@+id/chMyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="16dp"
+            android:text="개인정보 변경"
+            android:drawableBottom="@drawable/shape_line"/>
+
+        <TextView
+            android:id="@+id/chMyPW"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:textSize="16dp"
             android:text="비밀번호 변경"
-            android:drawableBottom="@drawable/shape_line"/>
-        <TextView
-            android:id="@+id/chPhone"
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:textSize="16dp"
-            android:text="휴대폰 번호 변경"
             android:drawableBottom="@drawable/shape_line"/>
         <TextView
             android:id="@+id/idCard"

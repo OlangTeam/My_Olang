@@ -49,24 +49,35 @@
             android:textStyle="bold"
             android:text="댓글"
            />
-        <TextView
-            android:id="@+id/callWay1"
-            android:textSize="16dp"
-            android:layout_width="wrap_content"
+
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
-            android:text="수신 방법"
-            />
-        <TextView
-            android:id="@+id/auto1"
-            android:textSize="16dp"
-            android:layout_width="wrap_content"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:id="@+id/auto1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="내가 쓴 글은 자동 켜짐"
+                android:textSize="16dp" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
-            android:text="내가 쓴 글은 자동 켜짐"
-            />
+            >
         <TextView
             android:id="@+id/content1"
             android:textSize="16dp"
@@ -75,8 +86,15 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:text="알림에 대한 내용 포함"
+            android:text="알림에 대한 내용 포함"/>
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp" />
             />
+        </RelativeLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -97,15 +115,12 @@
             android:textStyle="bold"
             />
 
-        <TextView
-            android:id="@+id/callWay2"
-            android:textSize="16dp"
-            android:layout_width="wrap_content"
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
-            android:text="수신 방법"
-            />
+            android:layout_marginBottom="5dp"
+            >
         <TextView
             android:textSize="16dp"
             android:id="@+id/auto2"
@@ -115,16 +130,39 @@
             android:layout_marginTop="5dp"
             android:text="내가 쓴 글은 자동 켜짐"
             />
-        <TextView
-            android:id="@+id/content2"
-            android:textSize="16dp"
-            android:layout_width="wrap_content"
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:text="알림에 대한 내용 포함"
-            />
+            >
+
+            <TextView
+                android:id="@+id/content2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="알림에 대한 내용 포함"
+                android:textSize="16dp" />
+
+
+            <Switch
+                android:layout_marginLeft="300dp"
+                android:id="@+id/switch4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -144,16 +182,30 @@
             android:text="친구"
             android:textStyle="bold"
             />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            >
+
         <TextView
-            android:id="@+id/callWay3"
+            android:id="@+id/friendRequest"
             android:textSize="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:text="수신 방법"
-            />
+            android:text="친구 요청"
+           />
+
+            <Switch
+                android:id="@+id/switch5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp" />
+        </RelativeLayout>
+
     </LinearLayout>
 
 </LinearLayout>

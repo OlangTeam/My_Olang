@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "1491717637",
-    "project_id": "olang-2a406",
-    "storage_bucket": "olang-2a406.appspot.com"
+    "project_number": "609859291203",
+    "project_id": "olaing-chat-base",
+    "storage_bucket": "olaing-chat-base.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1491717637:android:b2fe8cf3cf8fd27cfd566c",
+        "mobilesdk_app_id": "1:609859291203:android:6b3fc52d9352a2cee8acf6",
         "android_client_info": {
           "package_name": "com.yony.my_olang"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1491717637-egb7tja4sc2s3eqb21gqasfkn996461t.apps.googleusercontent.com",
+          "client_id": "609859291203-gnotgk1geb3umccla5i8s69j18sac569.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAdFh8FSftjDaXHBsjG9PcbvSDsVT7lo1k"
+          "current_key": "AIzaSyBcfYmwgTJxvMu3QXGQygsYGWG2wOsC7U8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1491717637-egb7tja4sc2s3eqb21gqasfkn996461t.apps.googleusercontent.com",
+              "client_id": "609859291203-gnotgk1geb3umccla5i8s69j18sac569.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

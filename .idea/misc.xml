@@ -3,18 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/drawable/circlebutton.xml" value="0.1953125" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/drawable/circlebuttonred.xml" value="0.1953125" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1953125" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/drawable/round_button.xml" value="0.1" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/drawable/round_button2.xml" value="0.19230769230769232" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/drawable/roundstroke.xml" value="0.19230769230769232" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/drawable/shape_line.xml" value="0.1796875" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/drawable/shape_line2.xml" value="0.1675925925925926" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/drawable/shape_rectangle.xml" value="0.22" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/drawable/square.xml" value="0.1765625" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/drawable/stroke.xml" value="0.1765625" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_alram_set_view.xml" value="0.22" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_cancel_view.xml" value="0.1" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_chat_call_view.xml" value="0.13125" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_chat_face_view.xml" value="0.13125" />
@@ -27,42 +18,139 @@
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_confirm_view.xml" value="0.1" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_friend_apply_view.xml" value="0.13496376811594202" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_friend_list_view.xml" value="0.13125" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_id_card_view.xml" value="0.22" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_id_pw_find.xml" value="0.140625" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_join_view.xml" value="0.3333333333333333" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_lock_set_view.xml" value="0.12952898550724637" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_logout_confirm_view.xml" value="0.22" />
+        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_logout_confirm_view.xml" value="0.1" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_my_info_view.xml" value="0.22" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_my_profile_change_view.xml" value="0.3333333333333333" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_mypage_view.xml" value="0.16666666666666666" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_passward_change_view.xml" value="0.16666666666666666" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_phone_num_change_view.xml" value="0.12604166666666666" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_postlist_hotlist_view.xml" value="0.14375" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_postlist_mypost_view.xml" value="0.14375" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_postwriteview_view.xml" value="0.14375" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_reccommend_view.xml" value="0.14666666666666667" />
+        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_mypage_view.xml" value="0.22" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_recommand_preference_view.xml" value="0.22" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_recommend_preference_view.xml" value="0.22" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/activity_sign_out_view.xml" value="0.13451086956521738" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/applylistview.xml" value="0.13125" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/chat_name_view_popup.xml" value="0.4466666666666667" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/chatlistview.xml" value="0.13125" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/friendlistview_item.xml" value="0.13125" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/layout.xml" value="0.1" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/mainview_1.xml" value="0.1" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/postfileselectview.xml" value="0.1" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/postlistview_1_1_1.xml" value="0.1" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/postview_1_1_1_1.xml" value="0.1" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/postwriteview_1_1_1_2.xml" value="0.16666666666666666" />
-        <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/row_chat.xml" value="0.6" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/selectlistview.xml" value="0.13125" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/layout/shape_rectangle.xml" value="0.13125" />
         <entry key="..\:/CookAndroid/Project/app/Olang/My_Olang/app/src/main/res/menu/chat_menu_view.xml" value="0.13125" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.27760416666666665" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/drawable/ic_baseline_thumb_up_24.xml" value="0.27760416666666665" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/drawable/ic_thumb_up_bg_50dp.xml" value="0.27760416666666665" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/drawable/ic_undo_bg_50dp.xml" value="0.27760416666666665" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/drawable/ic_undo_bg_red.xml" value="0.27760416666666665" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/drawable/square.xml" value="0.26974358974358975" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_boardview_view.xml" value="0.2513586956521739" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_cancel_view.xml" value="0.2" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_chat_call_view.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_chat_face_view.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_chat_game_view.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_chat_list_view.xml" value="0.2513586956521739" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_chat_screen_share_view.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_chat_select_picture_view.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_chat_select_view.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_chat_view.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_confirm_view.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_friend_apply_view.xml" value="0.2513586956521739" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_friend_list_view.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_my_info_view.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_mypage_view.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_postlistview_view.xml" value="0.2" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_postview_view.xml" value="0.264" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_postwriteview_view.xml" value="0.2513586956521739" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/activity_recommand_preference_view.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/boardview_1_1.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/chat_name_view_popup.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/chatlistview.xml" value="0.2513586956521739" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/friendlistview_item.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/mainview_1.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/postfileselectview.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/postlistview.xml" value="0.264" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/postlistview_1_1_1.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/postview.xml" value="0.264" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/postview_1_1_1_1.xml" value="0.2513586956521739" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/postwriteview_1_1_1_2.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/selectlistview.xml" value="0.13489583333333333" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/circlebuttonred.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/ic_chat_bubble_pt_30dp.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/ic_format_list_bulleted_bg_50dp.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/ic_home_bg_50dp.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/ic_menu_bg_35dp.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/ic_menu_bg_40dp.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/ic_people_bg_50dp.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/ic_thumb_up_bg_50dp.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/ic_undo_bg_50dp.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/round_button.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/round_button2.xml" value="0.1953125" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/roundstroke.xml" value="0.12" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/shape_line.xml" value="0.1953125" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/shape_line_gray.xml" value="0.1953125" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/square.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/stroke.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_ai_reccomend_view.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_boardview_view.xml" value="0.5" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_cancel_view.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_chat_call_view.xml" value="0.22" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_chat_face_view.xml" value="0.25795644891122277" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_chat_game_view.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_chat_list_view.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_chat_screen_share_view.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_chat_select_picture_view.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_chat_select_view.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_chat_view.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_confirm_view.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_correct_view.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_friend_apply_view.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_friend_list_view.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_hobby_reccomend_view.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_logout_confirm_view.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_mainview_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_my_info_view.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_mypage_view.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_post_search_view.xml" value="0.22" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postlist_hotlist_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postlist_mycomment_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postlist_mypost_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postlistview_foa_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postlistview_free_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postlistview_friendly_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postlistview_hot_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postlistview_study_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postlistview_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postlistview_worry_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postview_foa_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postview_free_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postview_friendly_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postview_hot_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postview_study_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postview_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postview_worry_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postwriteview_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_reccommend_main_view.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_reccommend_view.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_recommend_preference_view.xml" value="0.22" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_toolbar.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/applylistview.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/boardview_1_1.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/bottom_navigation_menu.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/chat_name_view_popup.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/chatlistview.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/friendlistview_item.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/mainview_1.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/postfileselectview.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/postlistview.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/postlistview_1_1_1.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/postview.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/postview_1_1_1_1.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/postwriteview_1_1_1_2.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/row_chat.xml" value="0.22" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/selectlistview.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/menu/chat_menu_view.xml" value="0.1" />
+        <entry key="..\:/Users/whdms/AndroidStudioProjects/Olang/app/src/main/res/layout/activity_chat_list_view.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/whdms/AndroidStudioProjects/Olang/app/src/main/res/layout/activity_recommend_preference_view.xml" value="0.17481884057971014" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

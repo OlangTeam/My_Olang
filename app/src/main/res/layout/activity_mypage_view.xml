@@ -9,35 +9,47 @@
     tools:context=".MypageView">
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="50sp"
         android:background="#0ac5a8">
-        <Button
-            android:id="@+id/back"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            android:background="#0ac5a8"
-            android:drawableBottom="@drawable/ic_undo_bg_50dp"></Button>
 
-        <TextView
-            android:id="@+id/mypage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="마이페이지"
-            android:textSize="20dp"
-            android:textColor="#FFFFFF"
-            />
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/mypagebar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0ac5a8"
+            android:theme="?attr/actionBarTheme"
+            app:navigationIcon="@drawable/abc_vector_test">
+
+            <TextView
+                android:id="@+id/barmypage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="마이페이지"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
     </FrameLayout>
+    <TextView
+        android:id="@+id/myProfile"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="내 프로필 확인 · 수정"
+        android:drawableBottom="@drawable/shape_line"/>
+
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:background="@drawable/shape_rectangle">
+        android:background="@drawable/square">
 
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:background="@drawable/square"
              />
 
         <LinearLayout
@@ -47,24 +59,29 @@
 
             <TextView
                 android:id="@+id/id"
-
+                android:textSize="16dp"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
-                android:text="아이디" />
+                android:text=" 아이디"
+                android:drawableBottom="@drawable/shape_line"/>
 
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:textSize="16dp"
+                android:text=" 이름"
+                android:visibility="visible"
+                tools:visibility="visible"
+                android:drawableBottom="@drawable/shape_line"/>
 
-        <TextView
-            android:id="@+id/name"
-            android:layout_width="150dp"
-            android:layout_height="50dp"
-            android:text="이름"
-            android:visibility="visible"
-            tools:visibility="visible" />
             <TextView
                 android:id="@+id/nickname"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
-                android:text="닉네임" />
+                android:textSize="16dp"
+                android:text=" 닉네임"
+                android:drawableBottom="@drawable/shape_line"/>
         </LinearLayout>
 
 
@@ -74,31 +91,48 @@
         android:id="@+id/typeSet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="취향 설정"
-        android:background="@drawable/shape_rectangle"/>
+        android:textSize="16dp"
+        android:background="@drawable/square"/>
 
     <LinearLayout
         android:layout_marginTop="15dp"
         android:orientation="vertical"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:background="@drawable/shape_rectangle">
+        android:background="@drawable/square">
 
         <TextView
             android:id="@+id/account"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="계정" />
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="계정"
+            android:drawableBottom="@drawable/shape_line"/>
         <TextView
-            android:id="@+id/myInfo"
+            android:id="@+id/chMyInfo"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="내 정보" />
+            android:textSize="16dp"
+            android:text="개인정보 변경"
+            android:drawableBottom="@drawable/shape_line"/>
+
+        <TextView
+            android:id="@+id/chMyPW"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="16dp"
+            android:text="비밀번호 변경"
+            android:drawableBottom="@drawable/shape_line"/>
         <TextView
             android:id="@+id/idCard"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="학생증 인증" />
+            android:textSize="16dp"
+            android:text="학생증 인증"
+            android:drawableBottom="@drawable/shape_line"/>
     </LinearLayout>
 
     <LinearLayout
@@ -106,25 +140,32 @@
         android:orientation="vertical"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:background="@drawable/shape_rectangle">
+        android:background="@drawable/square">
 
         <TextView
             android:id="@+id/alarmSet"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="알림 설정" />
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="알림 설정"
+            android:drawableBottom="@drawable/shape_line"/>
 
         <TextView
             android:id="@+id/appSet"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="앱 설정" />
+            android:textSize="16dp"
+            android:text="앱 설정"
+            android:drawableBottom="@drawable/shape_line"/>
 
         <TextView
             android:id="@+id/lockSet"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="암호잠금" />
+            android:textSize="16dp"
+            android:text="암호잠금"
+            android:drawableBottom="@drawable/shape_line"/>
     </LinearLayout>
 
     <LinearLayout
@@ -132,23 +173,30 @@
         android:orientation="vertical"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:background="@drawable/shape_rectangle">
+        android:background="@drawable/square">
 
         <TextView
             android:id="@+id/theOthers"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="기타" />
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="기타"
+            android:drawableBottom="@drawable/shape_line"/>
         <TextView
             android:id="@+id/signOut"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="회원탈퇴" />
+            android:textSize="16dp"
+            android:text="회원탈퇴"
+            android:drawableBottom="@drawable/shape_line"/>
         <TextView
             android:id="@+id/logout"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="로그아웃" />
+            android:textSize="16dp"
+            android:text="로그아웃"
+            android:drawableBottom="@drawable/shape_line"/>
     </LinearLayout>
 
 </LinearLayout>

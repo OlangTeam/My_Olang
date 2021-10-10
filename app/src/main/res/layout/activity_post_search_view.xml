@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/studyboard"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/freeboard"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#fdffee">
+    android:background="#fdffee"
+    tools:context=".PostListView">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -20,31 +22,23 @@
             android:theme="?attr/actionBarTheme"
             app:navigationIcon="@drawable/abc_vector_test">
 
-            <TextView
-                android:id="@+id/studyBoardTextview"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="스터디 게시판"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/write"
-                android:layout_width="50dp"
-                android:layout_height="match_parent"
-                android:background="#0ac5a8"
-                android:layout_gravity="right"
-                android:drawableRight="@drawable/ic_baseline_edit_24"></Button>
-
             <Button
                 android:id="@+id/search"
-                android:layout_width="50dp"
+                android:layout_width="70dp"
                 android:layout_height="match_parent"
                 android:background="#0ac5a8"
                 android:layout_gravity="right"
                 android:drawableRight="@drawable/ic_baseline_search_24"></Button>
+
+            <EditText
+                android:id="@+id/searchEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="  검색어를 입력하세요."
+                android:textColor="#FFFFFF"
+                android:background="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
         </androidx.appcompat.widget.Toolbar>
     </FrameLayout>
@@ -64,10 +58,10 @@
                 android:orientation="vertical" />
 
             <ListView
-                android:id="@+id/studyBoardList"
+                android:id="@+id/searchFindPostList"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_below="@+id/textView" />
+                android:layout_below="@+id/textView"/>
         </FrameLayout>
     </ScrollView>
 </LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LockSetView">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#0ac5a8">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/locksetbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0ac5a8"
+            android:theme="?attr/actionBarTheme"
+            app:navigationIcon="@drawable/abc_vector_test">
+
+            <TextView
+                android:id="@+id/barlockset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="암호 잠금"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/square">
+        <TextView
+            android:id="@+id/setCode"
+            android:textSize="18dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="암호 잠금"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/changeCode"
+            android:textSize="18dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="암호 변경"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</LinearLayout>

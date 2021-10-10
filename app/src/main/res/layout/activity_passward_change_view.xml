@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PasswardChangeView">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#0ac5a8">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/changePWBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0ac5a8"
+            android:theme="?attr/actionBarTheme"
+            app:navigationIcon="@drawable/abc_vector_test">
+
+            <TextView
+                android:id="@+id/barChangePW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="비밀번호 변경"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    <TextView
+        android:id="@+id/newPW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="새 비밀번호"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/editNewPW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="새 비밀번호"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editNewPW2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="새 비밀번호 확인"
+        android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    <TextView
+        android:id="@+id/nowPW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="현재 비밀번호"
+        android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/editNowPW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="현재 비밀번호"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/change"
+        android:layout_marginTop="300dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:text="수정완료"
+        android:textColor="#FFFFFF" />
+
+
+
+
+
+</LinearLayout>

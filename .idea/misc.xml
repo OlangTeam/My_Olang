@@ -68,33 +68,6 @@
         <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/postview_1_1_1_1.xml" value="0.2513586956521739" />
         <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/postwriteview_1_1_1_2.xml" value="0.17300724637681159" />
         <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang3/app/src/main/res/layout/selectlistview.xml" value="0.13489583333333333" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_ai_reccomend_view.xml" value="0.26145833333333335" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_boardview_view.xml" value="0.264" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_cancel_view.xml" value="0.2513586956521739" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_correct_view.xml" value="0.264" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_delete_view.xml" value="0.16" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_mypage_view.xml" value="0.2513586956521739" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_postlist_hotlist_view.xml" value="0.2513586956521739" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_postlist_mycomment_view.xml" value="0.2513586956521739" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_postlistview_foa_view.xml" value="0.26145833333333335" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_postlistview_free_view.xml" value="0.2513586956521739" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_postlistview_friendly_view.xml" value="0.2513586956521739" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_postlistview_study_view.xml" value="0.2" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_postlistview_worry_view.xml" value="0.2" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_postview_foa_view.xml" value="0.26145833333333335" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_postview_free_view.xml" value="0.2513586956521739" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_postview_friendly_view.xml" value="0.2513586956521739" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_postview_hot_view.xml" value="0.2513586956521739" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_postview_worry_view.xml" value="0.264" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_postwriteview_view.xml" value="0.26145833333333335" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_reccommend_view.xml" value="0.26145833333333335" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_recommend_preference_view.xml" value="0.26145833333333335" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_report_view.xml" value="0.4" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/activity_seemore_view.xml" value="0.2" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/chat_name_view_popup.xml" value="0.2513586956521739" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/postlistview.xml" value="0.2" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/layout/postview.xml" value="0.26145833333333335" />
-        <entry key="..\:/Users/hansh/AndroidStudioProjects/My_Olang6/app/src/main/res/menu/report.xml" value="0.26145833333333335" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/circlebuttonred.xml" value="0.1" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/ic_chat_bubble_pt_30dp.xml" value="0.1" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/ic_format_list_bulleted_bg_50dp.xml" value="0.1" />
@@ -105,11 +78,13 @@
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/ic_thumb_up_bg_50dp.xml" value="0.1" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/ic_undo_bg_50dp.xml" value="0.1" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/round_button.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/round_button2.xml" value="0.1953125" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/roundstroke.xml" value="0.12" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/shape_line.xml" value="0.1953125" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/shape_line_gray.xml" value="0.1953125" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/square.xml" value="0.1" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/drawable/stroke.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_ai_reccomend_view.xml" value="0.17527173913043478" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_boardview_view.xml" value="0.5" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_cancel_view.xml" value="0.1" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_chat_call_view.xml" value="0.22" />
@@ -121,13 +96,16 @@
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_chat_select_view.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_chat_view.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_confirm_view.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_correct_view.xml" value="0.17527173913043478" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_friend_apply_view.xml" value="0.1" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_friend_list_view.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_hobby_reccomend_view.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_logout_confirm_view.xml" value="0.1" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_mainview_view.xml" value="0.17916666666666667" />
-        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_my_info_view.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_my_info_view.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_mypage_view.xml" value="0.1" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_post_search_view.xml" value="0.22" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postlist_hotlist_view.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postlist_mycomment_view.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postlist_mypost_view.xml" value="0.17916666666666667" />
@@ -146,6 +124,8 @@
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postview_view.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postview_worry_view.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_postwriteview_view.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_reccommend_main_view.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_reccommend_view.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_recommend_preference_view.xml" value="0.22" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_toolbar.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/applylistview.xml" value="0.1" />
@@ -165,6 +145,8 @@
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/selectlistview.xml" value="0.1" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.4466666666666667" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/menu/chat_menu_view.xml" value="0.1" />
+        <entry key="..\:/Users/whdms/AndroidStudioProjects/Olang/app/src/main/res/layout/activity_chat_list_view.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/whdms/AndroidStudioProjects/Olang/app/src/main/res/layout/activity_recommend_preference_view.xml" value="0.17481884057971014" />
       </map>
     </option>
   </component>

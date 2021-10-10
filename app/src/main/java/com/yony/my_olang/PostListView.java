@@ -54,12 +54,6 @@ public class PostListView extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_postlistview_free_view);
 
-            //데이터 베이스
-            DBHelper helper;
-            SQLiteDatabase db;
-            helper = new DBHelper(PostListView.this, "board.db", null, 1);
-            db = helper.getWritableDatabase();
-            helper.onCreate(db);
 
 // LoginActivity 에서 넘긴 userid 값 받기
             userid = getIntent().getStringExtra("userid");

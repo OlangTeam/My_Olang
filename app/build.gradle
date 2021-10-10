@@ -34,6 +34,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics'
     dependencies {
         // ...
+        implementation 'com.google.firebase:firebase-database:19.2.1'
 
         // When using the BoM, you don't specify versions in Firebase library dependencies
 

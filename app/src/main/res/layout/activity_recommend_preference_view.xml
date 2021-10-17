@@ -40,9 +40,8 @@
         android:layout_height="wrap_content"
         android:textSize="18dp"
         android:textStyle="bold"
-        android:text="  <나는 이런 사람이에요>"
-        android:background="@drawable/square"
-        />
+        android:text="나는 이런 사람이에요"
+        android:background="@drawable/square" />
 
     <TextView
         android:id="@+id/character1"
@@ -50,18 +49,16 @@
         android:layout_height="wrap_content"
         android:textSize="16dp"
         android:textStyle="bold"
-        android:text="● 성격"
-        android:layout_marginLeft="10dp"
-        />
+        android:text=" 성격"
+        android:layout_marginLeft="10dp"/>
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="10dp">
 
-        >
         <Button
             android:id="@+id/sexy"
             android:layout_width="70dp"
@@ -103,8 +100,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
         <Button
             android:id="@+id/doggy"
             android:layout_width="70dp"
@@ -146,8 +142,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
         <Button
             android:id="@+id/fresh"
             android:layout_width="70dp"
@@ -192,7 +187,7 @@
         android:layout_height="wrap_content"
         android:textSize="16dp"
         android:textStyle="bold"
-        android:text="● 취미"
+        android:text=" 취미"
         android:layout_marginLeft="10dp"
         />
 
@@ -203,7 +198,7 @@
         android:layout_height="wrap_content"
         android:textSize="18dp"
         android:textStyle="bold"
-        android:text="  <나는 이런 사람이 좋아요>"
+        android:text=" 나는 이런 사람이 좋아요"
         android:layout_marginTop="20dp"
         android:background="@drawable/square"/>
 
@@ -213,7 +208,7 @@
         android:layout_height="wrap_content"
         android:textSize="16dp"
         android:textStyle="bold"
-        android:text="● 성격"
+        android:text=" 성격"
         android:layout_marginLeft="10dp"
         />
 
@@ -307,8 +302,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="10dp"
-        >
+        android:layout_marginLeft="10dp">
         <Button
             android:id="@+id/fresh2"
             android:layout_width="70dp"
@@ -354,9 +348,8 @@
         android:layout_height="wrap_content"
         android:textSize="16dp"
         android:textStyle="bold"
-        android:text="● 취미"
-        android:layout_marginLeft="10dp"
-        />
+        android:text=" 취미"
+        android:layout_marginLeft="10dp" />
     
     <LinearLayout
         android:layout_margin="20dp"

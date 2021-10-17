@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#fdffee"
-    tools:context=".Join_View">
+    tools:context=".JoinView">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
             android:text="" />
 
         <Button
-            android:id="@+id/overcheck"
+            android:id="@+id/btn_id_check"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -95,7 +95,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="비밀번호 확인" />
+            android:text="비밀번호 확인" />
 
     </LinearLayout>
 
@@ -118,9 +118,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-
             android:text="" />
     </LinearLayout>
+
     <LinearLayout
         android:padding="10dp"
         android:layout_width="match_parent"
@@ -140,8 +140,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-
             android:text="" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -163,7 +163,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-
             android:text="" />
     </LinearLayout>
 
@@ -188,7 +187,7 @@
             android:ems="10" />
 
         <Button
-            android:id="@+id/send_hp_check"
+            android:id="@+id/btn_send_hp"
             android:layout_width="73dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -203,21 +202,21 @@
         android:padding="10dp">
 
         <TextView
-            android:id="@+id/tv_hpwriter"
+            android:id="@+id/tv_send_hp"
             android:layout_width="10dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="인증번호 입력" />
 
         <EditText
-            android:id="@+id/et_hpwriter"
+            android:id="@+id/et_send_hp"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10" />
 
         <Button
-            android:id="@+id/hp_check"
+            android:id="@+id/btn_send_hp_apply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -260,18 +259,19 @@
             android:text="성별" />
 
         <RadioGroup
+            android:id="@+id/radio_sex"
             android:layout_width="118dp"
             android:layout_height="25dp"
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/radio_girl"
+                android:id="@+id/rb_girl"
                 android:layout_width="59dp"
                 android:layout_height="wrap_content"
                 android:text="여" />
 
             <RadioButton
-                android:id="@+id/radio_boy"
+                android:id="@+id/rb_boy"
                 android:layout_width="58dp"
                 android:layout_height="wrap_content"
                 android:text="남" />
@@ -288,7 +288,6 @@
             android:id="@+id/et_age"
             android:layout_width="93dp"
             android:layout_height="match_parent" />
-
     </LinearLayout>
 
     <LinearLayout
@@ -298,7 +297,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/tv_studentId"
+            android:id="@+id/tv_studentid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -330,7 +329,7 @@
             android:text="회원가입" />
 
         <Button
-            android:id="@+id/join_cancle"
+            android:id="@+id/join_cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

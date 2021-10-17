@@ -128,7 +128,7 @@
                 android:inputType="textPersonName" />
 
             <Button
-                android:id="@+id/tv_id_send_hp_check"
+                android:id="@+id/btn_id_send_hp_check"
                 android:layout_width="2dp"
                 android:layout_height="35dp"
                 android:layout_weight="1"

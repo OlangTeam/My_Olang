@@ -23,7 +23,6 @@
 
         <activity android:name=".MainView"/>
         <activity android:name=".IdPw_Find"/>
-        <activity android:name=".Join_View"/>
         <activity android:name=".IdCardView"/>
 
 

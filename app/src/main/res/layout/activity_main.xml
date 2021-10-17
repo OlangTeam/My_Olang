@@ -44,9 +44,9 @@
             android:layout_width="wrap_content"
             android:layout_height="85dp"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="25dp"
+            android:layout_marginRight="27dp"
             android:background="@drawable/round_button"
-            android:text="Log-In"
+            android:text="LogIn"
             android:textColor="#FFFFFF"></Button>
 
         <TextView
@@ -63,7 +63,7 @@
             android:id="@+id/et_pass"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/ID"
+            android:layout_below="@id/et_id"
             android:layout_marginLeft="75dp"
             android:ems="10"
             android:inputType="textPassword" />

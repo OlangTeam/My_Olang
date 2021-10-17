@@ -17,8 +17,7 @@
             android:exported="true" />
 
         <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@xml/switchButton" />
+            android:name="com.google.android.actions" />
 
         <activity
             android:name=".MyInfoView"
@@ -28,6 +27,9 @@
             android:exported="true" />
         <activity
             android:name=".LockSetView"
+            android:exported="true" />
+        <activity
+            android:name=".LoginView"
             android:exported="true" />
         <activity
             android:name=".IdCardView"

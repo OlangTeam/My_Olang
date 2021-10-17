@@ -36,16 +36,16 @@
                 android:id="@+id/write"
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
-                android:background="#0ac5a8"
                 android:layout_gravity="right"
+                android:background="#0ac5a8"
                 android:drawableRight="@drawable/ic_baseline_edit_24"></Button>
 
             <Button
                 android:id="@+id/search"
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
-                android:background="#0ac5a8"
                 android:layout_gravity="right"
+                android:background="#0ac5a8"
                 android:drawableRight="@drawable/ic_baseline_search_24"></Button>
 
         </androidx.appcompat.widget.Toolbar>

@@ -21,10 +21,6 @@ public class LoginView extends AppCompatActivity {
     private FirebaseAuth.AuthStateListener firebaseAuthListener;
     private EditText et_id; //아이디
     private EditText et_pass; //비밀번호
-    private Button buttonLogIn; //로그인
-    private Button buttonIdFound; //ID찾기
-    private Button buttonPwFound; //PW찾기
-    private Button buttonSignUp; //회원가입
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +35,8 @@ public class LoginView extends AppCompatActivity {
         et_pass = (EditText) findViewById(R.id.et_pass);
 
         //회원가입 버튼 누르면
-        buttonSignUp = (Button) findViewById(R.id.btn_register);
+        //회원가입
+        Button buttonSignUp = (Button) findViewById(R.id.btn_register);
 
         buttonSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,8 +47,8 @@ public class LoginView extends AppCompatActivity {
             }
         });
 
-        //아이디 찾기
-        buttonIdFound = (Button) findViewById(R.id.FoundID);
+        //아이디 찾기 click 페이지로 이동
+        Button buttonIdFound = (Button) findViewById(R.id.FoundID);
 
         buttonIdFound.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,7 +59,8 @@ public class LoginView extends AppCompatActivity {
         });
 
         //비밀번호 찾기
-        buttonPwFound = (Button) findViewById(R.id.FoundPW);
+        //PW찾기
+        Button buttonPwFound = (Button) findViewById(R.id.FoundPW);
 
         buttonPwFound.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,7 +71,8 @@ public class LoginView extends AppCompatActivity {
         });
 
         //로그인 버튼 누르면
-        buttonLogIn = (Button) findViewById(R.id.btn_login);
+        //로그인
+        Button buttonLogIn = (Button) findViewById(R.id.btn_login);
 
         buttonLogIn.setOnClickListener(new View.OnClickListener() {
             @Override

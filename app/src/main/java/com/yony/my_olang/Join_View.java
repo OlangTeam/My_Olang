@@ -1,22 +1,22 @@
 package com.yony.my_olang;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
-public class Join_View extends AppCompatActivity {
+public class Join_View<FirebaseDatabase> extends AppCompatActivity {
 
     // 파이어베이스 데이터베이스 연동
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -42,16 +42,16 @@ public class Join_View extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
 
         id = (EditText) findViewById(R.id.et_id); //아이디
-        name = (EditText) findViewById(R.id.et_name); //이름
+        name = (EditText) findViewById(R.id.editTextTextPersonName9); //이름
         password = (EditText) findViewById(R.id.et_pass); //비밀번호
-        email = (EditText) findViewById(R.id.et_email); //이메일
-        hp = (EditText) findViewById(R.id.et_hp); //핸폰
+        email = (EditText) findViewById(R.id.editTextTextPersonName10); //이메일
+        hp = (EditText) findViewById(R.id.editTextTextPersonName11); //핸폰
 
         overcheck = (Button) findViewById(R.id.overcheck);//아이디 중복체크
         hp_check = (Button) findViewById(R.id.hp_check); //핸드폰 인증
         found_address = (Button) findViewById(R.id.found_address); //주소
-        login_success = (Button) findViewById(R.id.join_success); //로그인 성공
-        login_cancle = (Button) findViewById(R.id.join_cancle); //로그인 실패
+        login_success = (Button) findViewById(R.id.btn_register); //회원가입 성공
+        login_cancle = (Button) findViewById(R.id.join_cancel); //회원가입 취소
         studentid = (Button) findViewById(R.id.studentId); //학생증 업로드
 
         overcheck.setOnClickListener(new View.OnClickListener() {

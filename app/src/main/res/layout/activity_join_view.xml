@@ -60,7 +60,7 @@
             android:text="" />
 
         <Button
-            android:id="@+id/button21"
+            android:id="@+id/overcheck"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -90,13 +90,12 @@
             android:text="" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName8"
+            android:id="@+id/et_repass"
             android:layout_width="149dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-
-            android:text="비밀번호 확인" />
+            android:hint="비밀번호 확인" />
 
     </LinearLayout>
 
@@ -107,14 +106,14 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/et_name"
+            android:id="@+id/tv_name"
             android:layout_width="14dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="이름" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName9"
+            android:id="@+id/et_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -152,28 +151,20 @@
         android:padding="10dp">
 
         <TextView
-            android:id="@+id/et_email"
+            android:id="@+id/tv_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="이메일" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName10"
+            android:id="@+id/et_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
 
             android:text="" />
-
-        <Button
-            android:id="@+id/button23"
-            android:layout_width="77dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/round_button_2"
-            android:text="인증번호 확인" />
     </LinearLayout>
 
     <LinearLayout
@@ -183,22 +174,21 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/et_hp"
+            android:id="@+id/tv_hp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="HP" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName11"
+            android:id="@+id/et_hp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:ems="10"
-             />
+            android:ems="10" />
 
         <Button
-            android:id="@+id/button24"
+            android:id="@+id/send_hp_check"
             android:layout_width="73dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -213,20 +203,21 @@
         android:padding="10dp">
 
         <TextView
-            android:id="@+id/textView32"
+            android:id="@+id/tv_hpwriter"
             android:layout_width="10dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="인증번호 입력" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName12"
+            android:id="@+id/et_hpwriter"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10" />
+
         <Button
-            android:id="@+id/button29"
+            android:id="@+id/hp_check"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -241,14 +232,14 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/et_address"
+            android:id="@+id/tv_address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="주소" />
 
         <Button
-            android:id="@+id/button25"
+            android:id="@+id/found_address"
             android:layout_width="16dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
@@ -263,7 +254,7 @@
         android:padding="10dp">
 
         <TextView
-            android:id="@+id/textView34"
+            android:id="@+id/tv_sex"
             android:layout_width="49dp"
             android:layout_height="wrap_content"
             android:text="성별" />
@@ -274,20 +265,20 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/radio_sex"
+                android:id="@+id/radio_girl"
                 android:layout_width="59dp"
                 android:layout_height="wrap_content"
                 android:text="여" />
 
             <RadioButton
-                android:id="@+id/radioButton3"
+                android:id="@+id/radio_boy"
                 android:layout_width="58dp"
                 android:layout_height="wrap_content"
                 android:text="남" />
         </RadioGroup>
 
         <TextView
-            android:id="@+id/textView80"
+            android:id="@+id/tv_age"
             android:layout_width="49dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
@@ -296,9 +287,8 @@
         <EditText
             android:id="@+id/et_age"
             android:layout_width="93dp"
-            android:layout_height="match_parent"
+            android:layout_height="match_parent" />
 
-            />
     </LinearLayout>
 
     <LinearLayout
@@ -308,14 +298,14 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView35"
+            android:id="@+id/tv_studentId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="학생증 업로드" />
 
         <Button
-            android:id="@+id/button26"
+            android:id="@+id/studentId"
             android:layout_width="39dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -331,7 +321,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_register"
+            android:id="@+id/join_success"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -340,7 +330,7 @@
             android:text="회원가입" />
 
         <Button
-            android:id="@+id/button27"
+            android:id="@+id/join_cancle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

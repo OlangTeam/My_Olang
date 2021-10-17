@@ -19,7 +19,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="220dp"
-                android:textsize="16"
                 android:text="댓글쓴이" />
 
             <ImageButton
@@ -52,13 +51,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textsize="16"
+
             android:text="내용" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textsize="16"
+
             android:text="시간 날짜" />
 
 

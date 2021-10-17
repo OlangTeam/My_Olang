@@ -12,13 +12,29 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainView"/>
+        <activity android:name=".IdPw_Find"/>
+        <activity android:name=".Join_View"/>
+        <activity android:name=".IdCardView"/>
+
+
+
         <activity
             android:name=".ChatNameView"
             android:exported="true" />
-
+<!--
         <meta-data
             android:name="com.google.android.actions"
-            android:resource="@xml/switchButton" />
+            android:resource="@xml/switchButton" />-->
 
         <activity
             android:name=".MyInfoView"
@@ -29,9 +45,7 @@
         <activity
             android:name=".LockSetView"
             android:exported="true" />
-        <activity
-            android:name=".IdCardView"
-            android:exported="true" />
+
         <activity
             android:name=".AlramSetView"
             android:exported="true" />
@@ -75,13 +89,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+
     </application>
 
 </manifest>

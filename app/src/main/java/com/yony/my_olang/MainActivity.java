@@ -17,8 +17,11 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
+
+    //firebase 객체를 얻기위해 FirebaseAuth에 객체를 만들어서 얻어오기
     private FirebaseAuth firebaseAuth;
     private FirebaseAuth.AuthStateListener firebaseAuthListener;
+
     private EditText et_id; //아이디
     private EditText et_pass; //비밀번호
     private Button buttonLogIn; //로그인
@@ -31,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //firebase 연동
+        //firebase 연동, 객체 얻어오기
         firebaseAuth = FirebaseAuth.getInstance();
 
         //id,pw 입력한값 얻어오기
@@ -99,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
         };
     }
 
+    //로그인버튼 누를시 호출되는 코드
     public void loginUser(String id,String password) {
         firebaseAuth.signInWithEmailAndPassword(id, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {

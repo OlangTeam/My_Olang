@@ -38,6 +38,13 @@ public class Join_View extends AppCompatActivity {
 
         findViewById(R.id.join_success).setOnClickListener(onClickListener);
 
+        String id = ((EditText) findViewById(R.id.et_id)).getText().toString(); //아이디
+        String name = ((EditText) findViewById(R.id.et_name)).getText().toString(); //이름
+        String password = ((EditText) findViewById(R.id.et_pass)).getText().toString(); //비밀번호
+        String repassword = ((EditText) findViewById(R.id.et_repass)).getText().toString();
+        String email = ((EditText) findViewById(R.id.et_email)).getText().toString(); //이메일
+        String hp = ((EditText) findViewById(R.id.et_hp)).getText().toString(); //핸폰
+        String age = ((EditText) findViewById(R.id.et_age)).getText().toString(); //나이
 
 
     }
@@ -70,6 +77,8 @@ public class Join_View extends AppCompatActivity {
         login_cancle = (Button) findViewById(R.id.join_cancle); //로그인 취소
         studentid = (Button) findViewById(R.id.studentId); //학생증 업로드
 
+
+        private void createUser(String id,String password, )
 
 
         //값이 다 입력 된 후 repass 비교

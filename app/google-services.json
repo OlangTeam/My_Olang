@@ -1,33 +1,42 @@
 {
   "project_info": {
-    "project_number": "609859291203",
-    "project_id": "olaing-chat-base",
-    "storage_bucket": "olaing-chat-base.appspot.com"
+    "project_number": "944761353939",
+    "firebase_url": "https://olangchat-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "olangchat",
+    "storage_bucket": "olangchat.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:609859291203:android:6b3fc52d9352a2cee8acf6",
+        "mobilesdk_app_id": "1:944761353939:android:03923877f2f0161faec626",
         "android_client_info": {
           "package_name": "com.yony.my_olang"
         }
       },
       "oauth_client": [
         {
-          "client_id": "609859291203-gnotgk1geb3umccla5i8s69j18sac569.apps.googleusercontent.com",
+          "client_id": "944761353939-0pq7eev8tbhu31kloksajk90r66a2sir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yony.my_olang",
+            "certificate_hash": "6258953c495972ff14ad5a693c207d72aba5c917"
+          }
+        },
+        {
+          "client_id": "944761353939-ntq239c146bdv90f4vu41q95mrjqalcm.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBcfYmwgTJxvMu3QXGQygsYGWG2wOsC7U8"
+          "current_key": "AIzaSyAkQy174M7K7beQfdN_otwKTHDCfStHbww"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "609859291203-gnotgk1geb3umccla5i8s69j18sac569.apps.googleusercontent.com",
+              "client_id": "944761353939-ntq239c146bdv90f4vu41q95mrjqalcm.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

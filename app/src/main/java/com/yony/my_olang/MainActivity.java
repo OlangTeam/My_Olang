@@ -1,14 +1,14 @@
 package com.yony.my_olang;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -79,12 +79,24 @@ public class MainActivity extends AppCompatActivity {
 
         buttonLogIn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                if (!et_id.getText().toString().equals("") && !et_pass.getText().toString().equals("")) {
-                    loginUser(et_id.getText().toString(), et_pass.getText().toString());
-                } else {
-                    Toast.makeText(MainActivity.this, "아이디와 비밀번호를 입력하세요.", Toast.LENGTH_LONG).show();
-                }
+            public void onClick(View view) {
+                String id = et_id.getText().toString().trim();
+                String pwd = et_pass.getText().toString().trim();
+
+                firebaseAuth.signInWithEmailAndPassword(id, pwd)
+                        .addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
+                            @Override
+                            public void onComplete(@NonNull Task<AuthResult> task) {
+                                if (task.isSuccessful()) {
+                                    // 로그인 성공
+                                    Toast.makeText(MainActivity.this, "로그인 성공", Toast.LENGTH_SHORT).show();
+                                    firebaseAuth.addAuthStateListener(firebaseAuthListener);
+                                } else {
+                                    // 로그인 실패
+                                    Toast.makeText(MainActivity.this, "아이디 또는 비밀번호가 일치하지 않습니다.", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
             }
         });
 
@@ -102,22 +114,10 @@ public class MainActivity extends AppCompatActivity {
         };
     }
 
+
     //로그인버튼 누를시 호출되는 코드
     public void loginUser(String id,String password) {
-        firebaseAuth.signInWithEmailAndPassword(id, password)
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            // 로그인 성공
-                            Toast.makeText(MainActivity.this, "로그인 성공", Toast.LENGTH_SHORT).show();
-                            firebaseAuth.addAuthStateListener(firebaseAuthListener);
-                        } else {
-                            // 로그인 실패
-                            Toast.makeText(MainActivity.this, "아이디 또는 비밀번호가 일치하지 않습니다.", Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
+
     }
 
     @Override

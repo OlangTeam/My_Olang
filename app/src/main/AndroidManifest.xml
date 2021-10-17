@@ -21,14 +21,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainView"
-            android:exported="true"/>
-        <activity android:name=".IdPw_Find"
-            android:exported="true"/>
-        <activity android:name=".IdCardView"
-            android:exported="true"/>
-
-
+        <activity android:name=".MainView"/>
+        <activity android:name=".IdPw_Find"/>
+        <activity android:name=".IdCardView"/>
+        <activity android:name=".JoinView"/>
+        <activity android:name=".PostListView"/>
 
         <activity
             android:name=".ChatNameView"
@@ -47,9 +44,7 @@
         <activity
             android:name=".LockSetView"
             android:exported="true" />
-        <activity
-            android:name=".JoinView"
-            android:exported="true" />
+
         <activity
             android:name=".LoginView"
             android:exported="true" />

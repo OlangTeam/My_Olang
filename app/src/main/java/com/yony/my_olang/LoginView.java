@@ -42,8 +42,8 @@ public class LoginView extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // SignUpActivity 연결
-                //Intent intent = new Intent(LoginView.this, Join_View.class);
-                //startActivity(intent);
+                Intent intent = new Intent(LoginView.this, JoinView.class);
+                startActivity(intent);
             }
         });
 
@@ -77,11 +77,22 @@ public class LoginView extends AppCompatActivity {
         buttonLogIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!et_id.getText().toString().equals("") && !et_pass.getText().toString().equals("")) {
-                    loginUser(et_id.getText().toString(), et_pass.getText().toString());
-                } else {
-                    Toast.makeText(LoginView.this, "아이디와 비밀번호를 입력하세요.", Toast.LENGTH_LONG).show();
-                }
+                String id = et_id.getText().toString().trim();
+                String pwd = et_pass.getText().toString().trim();
+                firebaseAuth.signInWithEmailAndPassword(id,pwd)
+                        .addOnCompleteListener(LoginView.this, new OnCompleteListener<AuthResult>() {
+                            @Override
+                            public void onComplete(@NonNull Task<AuthResult> task) {
+                                if(task.isSuccessful()){
+                                    Intent intent = new Intent(LoginView.this, MainView.class);
+                                    startActivity(intent);
+
+                                }else{
+                                    Toast.makeText(LoginView.this,"로그인 오류",Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+
             }
         });
 

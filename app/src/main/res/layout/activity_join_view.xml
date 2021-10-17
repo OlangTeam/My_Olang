@@ -37,7 +37,13 @@
         </FrameLayout>
 
     </LinearLayout>
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:padding="10dp"
         android:layout_width="match_parent"
@@ -206,7 +212,7 @@
             android:layout_width="10dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="인증번호 입력" />
+            android:text="인증번호" />
 
         <EditText
             android:id="@+id/et_send_hp"
@@ -221,7 +227,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/round_button_2"
-            android:text="인증번호 확인" />
+            android:text="인증번호 확인"/>
     </LinearLayout>
 
     <LinearLayout
@@ -256,6 +262,7 @@
             android:id="@+id/tv_sex"
             android:layout_width="49dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="성별" />
 
         <RadioGroup
@@ -337,4 +344,6 @@
             android:layout_marginLeft="5dp"
             android:text="취소" />
     </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
 </LinearLayout>

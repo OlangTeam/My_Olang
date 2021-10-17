@@ -42,8 +42,8 @@ public class LoginView extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // SignUpActivity 연결
-                Intent intent = new Intent(LoginView.this, Join_View.class);
-                startActivity(intent);
+                //Intent intent = new Intent(LoginView.this, Join_View.class);
+                //startActivity(intent);
             }
         });
 

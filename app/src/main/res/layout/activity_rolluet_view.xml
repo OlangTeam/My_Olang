@@ -28,15 +28,13 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/sharp_label_black_18dp2" />
+        android:layout_marginTop="20dp" />
 
     <RelativeLayout
         android:id="@+id/layoutRoulette"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:orientation="vertical"
-        android:background="@drawable/background_roulette">
+        android:orientation="vertical">
 
         <!--        <Button-->
         <!--            android:id="@+id/btn_rotate"-->

@@ -102,7 +102,8 @@
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_friend_list_view.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_hobby_reccomend_view.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_id_found_result_view.xml" value="0.15307971014492755" />
-        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_join_view.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_id_pw_find.xml" value="0.10666666666666667" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_join_view.xml" value="0.2359375" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_logout_confirm_view.xml" value="0.1" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_mainview_view.xml" value="0.17916666666666667" />
@@ -130,6 +131,7 @@
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_reccommend_main_view.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_reccommend_view.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_recommend_preference_view.xml" value="0.22" />
+        <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_rolluet_view.xml" value="0.1" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/activity_toolbar.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/applylistview.xml" value="0.1" />
         <entry key="..\:/Users/ivg06/AndroidStudioProjects/My_Olang/app/src/main/res/layout/boardview_1_1.xml" value="0.1" />
